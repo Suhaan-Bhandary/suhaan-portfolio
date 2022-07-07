@@ -1,6 +1,6 @@
 .OtherProject {
   background-color: var(--bg-light);
-  padding-block: 3em;
+  padding-block: 1rem;
 }
 
 .other-project-swiper {
@@ -33,4 +33,11 @@
 
 .other-project-swiper .swiper-pagination-bullet-active {
   background-color: var(--accent-color);
+}
+
+@media (min-width: 45em) {
+  .OtherProject {
+    padding-top: 1.5rem;
+    padding-bottom: 3rem;
+  }
 }

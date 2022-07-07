@@ -1,0 +1,55 @@
+.Footer {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  padding: 1rem;
+
+  background-color: var(--bg-dark);
+
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.Footer h3,
+.Footer p,
+.Footer a {
+  font-size: 0.8rem;
+
+  color: var(--text-light);
+}
+
+.Footer h3 {
+  font-size: 1rem;
+}
+
+.Footer a {
+  font-weight: bold;
+}
+
+.Footer .credit h3 {
+  font-size: 0.8rem;
+
+  text-align: center;
+}
+
+@media (min-width: 45em) {
+  .Footer {
+    flex-direction: row;
+
+    padding: 1rem 3rem;
+
+    justify-content: start;
+  }
+
+  .Footer .credit {
+    margin-inline: auto;
+  }
+  
+  .Footer .credit h3 {
+    font-size: 1rem;
+
+    text-align: center;
+  }
+}

@@ -11,12 +11,16 @@
 
 :root {
   --accent-color: rgb(116, 38, 241);
+
+  --text-white: #fff;
+  --text-light: #f7faff;
   --text-dark: #141c3a;
 
   --box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
 
-  --bg-light: #f7faff;
   --bg-white: #fff;
+  --bg-light: #f7faff;
+  --bg-dark: #141c3a;
 
   --btn-text-color: #fff;
   --btn-bg-color: rgb(116, 38, 241);
