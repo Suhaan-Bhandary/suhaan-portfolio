@@ -1,4 +1,4 @@
-.MainProject{
+.MainProject {
   background-color: var(--bg-light);
 }
 
@@ -22,4 +22,10 @@
 
 .main-project-swiper .swiper-pagination-bullet-active {
   background-color: var(--accent-color);
+}
+
+@media ((min-width: 35rem) and (max-width: 60rem)) {
+  .main-project-swiper {
+    height: 120vh;
+  }
 }
