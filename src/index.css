@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 
   font-family: "Poppins", sans-serif;
   color: var(--text-dark);
@@ -26,7 +27,7 @@
 /* Common CSS Properties For the Project*/
 section {
   width: 100%;
-  overflow-x: hidden; 
+  overflow-x: hidden;
   position: relative;
 
   --heading-in-time: 1s;
@@ -42,7 +43,7 @@ section {
 
   top: var(--y);
   transform: translateX(-250%);
-  
+
   transition: var(--heading-in-time);
   transition-delay: var(--line-in-time);
 }
@@ -56,12 +57,12 @@ section.active .section-header {
   content: "";
   background-color: var(--text-dark);
   position: absolute;
-  width: calc(100% * (3/8));
+  width: calc(100% * (3 / 8));
   height: 5px;
   border-radius: 5px;
   bottom: 0;
 
-  transition:  var(--line-in-time);
+  transition: var(--line-in-time);
   transition-delay: 0s;
 
   transform-origin: left;
@@ -70,5 +71,19 @@ section.active .section-header {
 
 section.active .section-header::before {
   transform: scaleX(1);
-  transition-delay:  var(--heading-in-time);
+  transition-delay: var(--heading-in-time);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01s !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01s !important;
+    animation-delay: 0.01s !important;
+    scroll-behavior: auto !important;
+
+    transition-delay: 0.01s !important;
+  }
 }
