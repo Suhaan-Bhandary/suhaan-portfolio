@@ -1,0 +1,155 @@
+.Project {
+  display: grid;
+
+  width: 90%;
+  height: 85%;
+
+  border-radius: var(--box-border-radius);
+  background-color: var(--bg-white);
+  box-shadow: var(--box-shadow);
+
+  grid-template-rows: 1fr 3fr;
+  grid-template-columns: 1fr;
+}
+
+.imageContainer {
+  height: fit-content;
+  padding: 2rem 1rem;
+  padding-bottom: 1.5rem;
+
+  margin-block: auto;
+}
+
+.imageContainer img {
+  width: 80%;
+  border-radius: var(--box-border-radius);
+}
+
+.projectInfo {
+  overflow: hidden;
+
+  height: 100%;
+  margin-bottom: 20px;
+  padding: 1rem;
+  padding-top: 0;
+
+  text-align: left;
+}
+
+.projectInfo > h2 {
+  margin-bottom: 0.5rem;
+}
+
+.container {
+  overflow: auto;
+  max-height: 85%;
+}
+
+.container > * + * {
+  margin-top: 1rem;
+}
+
+.description {
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+  opacity: 0.8;
+}
+
+.date {
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.date span {
+  font-weight: 500;
+}
+
+.techStack > p {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+.techStack > li {
+  font-size: 1rem;
+
+  list-style-position: inside;
+}
+
+.btnContainer {
+  display: flex;
+  gap: 1rem;
+}
+
+.btnContainer a {
+  font-size: 1rem;
+  font-weight: bold;
+
+  padding: 10px 20px;
+
+  text-decoration: none;
+
+  color: var(--btn-text-color);
+  border-radius: 5px;
+  background-color: var(--btn-bg-color);
+}
+
+.btnContainer a:hover {
+  opacity: 0.8;
+}
+
+@media (min-width: 60em) {
+  .Project {
+    grid-template-rows: 1fr;
+    grid-template-columns: 3fr 2fr;
+  }
+
+  .imageContainer {
+    padding: 2rem;
+  }
+
+  .projectInfo {
+    display: flex;
+    flex-direction: column;
+
+    padding: 2rem;
+
+    margin-block: auto;
+    justify-content: center;
+  }
+
+  .projectInfo > h2 {
+    font-size: 2rem;
+
+    margin-bottom: 1rem;
+  }
+
+  .container > * + * {
+    margin-top: 1.5rem;
+  }
+
+  .description {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .date {
+    font-size: 1rem;
+  }
+
+  .techStack > p {
+    font-size: 1.5rem;
+  }
+
+  .techStack > li {
+    font-size: 1rem;
+  }
+
+  .btnContainer {
+    display: flex;
+
+    gap: 2rem;
+  }
+
+  .btnContainer a {
+    padding: 10px 30px;
+  }
+}

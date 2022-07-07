@@ -1,0 +1,25 @@
+.MainProject{
+  background-color: var(--bg-light);
+}
+
+.main-project-swiper {
+  width: 100%;
+  height: 90vh;
+
+  margin-inline: auto;
+}
+
+.main-project-swiper .swiper-slide {
+  font-size: 18px;
+
+  display: flex;
+
+  text-align: center;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.main-project-swiper .swiper-pagination-bullet-active {
+  background-color: var(--accent-color);
+}
