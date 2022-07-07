@@ -1,6 +1,6 @@
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination, Autoplay, Keyboard, Navigation } from "swiper";
+import { Pagination, Autoplay, Keyboard } from "swiper";
 
 // Import Swiper styles
 import "swiper/css";
@@ -11,7 +11,7 @@ import "./OtherProject.css";
 import Project from "./components/Project/Project.jsx";
 import { UseActiveOnScroll } from "../../hooks/useActiveOnScroll";
 
-import otherProjectData from "../../assets/data/Projects.json";
+import otherProjectData from "../../assets/data/OtherProjects.json";
 
 const OtherProject = () => {
   const { observerRef: sectionRef, isVisible } = UseActiveOnScroll(0.3);
@@ -28,12 +28,11 @@ const OtherProject = () => {
       <Swiper
         className="other-project-swiper"
         loop={true}
-        autoplay={{delay: 2000}}
+        autoplay={{ delay: 2000 }}
         pagination={{ clickable: true }}
         keyboard={{ enabled: true }}
         modules={[Keyboard, Autoplay, Pagination]}
         spaceBetween={40}
-
         breakpoints={{
           400: {
             slidesPerView: 1,
