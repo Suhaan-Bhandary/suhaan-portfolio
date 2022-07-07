@@ -1,9 +1,10 @@
-import { MainProject } from "./screens";
+import { MainProject, OtherProject } from "./screens";
 
 function App() {
   return (
     <div className="App">
       <MainProject />
+      <OtherProject/>
     </div>
   );
 }

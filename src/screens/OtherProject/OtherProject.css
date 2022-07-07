@@ -1,0 +1,36 @@
+.OtherProject {
+  background-color: var(--bg-light);
+  padding-block: 3em;
+}
+
+.other-project-swiper {
+  width: 90%;
+  height: 40vh;
+  margin-top: 2rem;
+  padding: 2rem;
+
+  border-radius: var(--box-border-radius);
+  background-color: var(--bg-white);
+  box-shadow: var(--box-shadow);
+
+  margin-inline: auto;
+}
+
+.other-project-swiper .swiper-slide {
+  font-size: 18px;
+
+  display: flex;
+
+  height: 95%;
+
+  text-align: center;
+
+  border-radius: var(--box-border-radius);
+
+  justify-content: center;
+  align-items: center;
+}
+
+.other-project-swiper .swiper-pagination-bullet-active {
+  background-color: var(--accent-color);
+}

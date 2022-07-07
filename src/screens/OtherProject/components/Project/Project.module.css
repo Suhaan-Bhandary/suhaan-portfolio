@@ -1,0 +1,134 @@
+.Project {
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+
+  width: 100%;
+  height: 100%;
+
+  text-align: left;
+
+  border-radius: var(--box-border-radius);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  align-items: start;
+  justify-content: flex-end;
+  --animation-time: 500ms;
+}
+
+.content {
+  width: 100%;
+  padding: var(--padding);
+
+  color: white;
+  background: linear-gradient(
+    hsla(0, 0%, 0%, 0),
+    hsla(0, 0%, 0%, 0.3) 20%,
+    hsla(0, 0%, 0%, 0.8)
+  );
+
+  --padding: 1rem;
+}
+
+.content .title {
+  font-size: 1.2rem;
+
+  position: relative;
+
+  width: fit-content;
+
+  color: white;
+}
+
+.content .title::before {
+  position: absolute;
+  bottom: -2px;
+  left: calc(var(--padding) * -1);
+
+  width: calc(100% + var(--padding));
+  height: 4px;
+
+  content: "";
+  transition: transform var(--animation-time) ease;
+  transform-origin: left;
+
+  background-color: var(--accent-color);
+}
+
+.content > p {
+  font-size: 0.75rem;
+
+  color: white;
+}
+
+.content > * + * {
+  margin-top: 0.5rem;
+}
+
+.btnContainer {
+  display: flex;
+
+  gap: 1rem;
+}
+
+.btnContainer a {
+  font-size: 1rem;
+
+  display: inline-block;
+
+  padding: 0.2em 1em;
+
+  cursor: pointer;
+  text-decoration: none;
+
+  color: var(--bg-light);
+  border-radius: 5px;
+  background-color: var(--accent-color);
+}
+
+.btnContainer a:hover,
+.btnContainer a:focus {
+  color: var(--text-dark);
+  background-color: var(--bg-light);
+}
+
+/* It checks if the primary device can hover */
+@media (hover) {
+  .content {
+    transition: transform var(--animation-time) ease;
+    transition-delay: var(--animation-time);
+    transform: translateY(calc(100% - 3.5rem));
+  }
+
+  .Project:hover .content,
+  .Project:focus-within .content {
+    transition-delay: var(--animation-time);
+    transform: translateX(0);
+  }
+
+  .Project:focus-within .content {
+    transition-duration: 0ms;
+  }
+
+  .Project .content > *:not(.title) {
+    transition: var(--animation-time) linear;
+
+    opacity: 0;
+  }
+
+  .Project:hover .content > *:not(.title) {
+    transition-delay: var(--animation-time);
+
+    opacity: 1;
+  }
+
+  .content .title::before {
+    transform: scaleX(0);
+  }
+
+  .Project:hover .title::before {
+    transform: scaleX(1);
+  }
+}
