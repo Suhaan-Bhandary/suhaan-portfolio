@@ -62,7 +62,7 @@
 
   cursor: pointer;
 
-  color: var(--bg-dark);
+  color: var(--text-dark);
 }
 
 .menu li a::after {
