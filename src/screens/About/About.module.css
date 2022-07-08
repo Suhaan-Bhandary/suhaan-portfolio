@@ -1,0 +1,79 @@
+.About {
+  padding: 2rem 0;
+  padding-bottom: 10rem;
+
+  background-color: var(--bg-dark);
+}
+
+section.About > h1 {
+  color: var(--bg-light);
+}
+
+section.About > h1::before {
+  background-color: var(--bg-light);
+}
+
+.content {
+  padding: 2rem 5%;
+}
+
+.content p {
+  font-size: 1rem;
+  line-height: 1.5rem;
+
+  margin-bottom: 1rem;
+
+  opacity: 0.8;
+  color: var(--bg-light);
+}
+
+.content .email {
+  font-weight: bold;
+
+  opacity: 1;
+}
+
+.content .email > a {
+  font-weight: 500;
+
+  opacity: 0.8;
+  color: var(--bg-light);
+}
+
+.btn {
+  font-weight: 600;
+
+  display: inline-block;
+
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+
+  text-decoration: none;
+
+  color: var(--btn-text-color);
+  border-radius: 5px;
+  background-color: var(--btn-bg-color);
+}
+
+.btn:hover,
+.btn:focus {
+  opacity: 0.8;
+}
+
+@media (min-width: 30rem) {
+  .content p {
+    font-size: 1.2rem;
+    line-height: 2.5rem;
+
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: 65rem) {
+  .content p {
+    font-size: 1.2rem;
+    line-height: 2.5rem;
+
+    margin-bottom: 0;
+  }
+}
