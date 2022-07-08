@@ -12,6 +12,7 @@ const Education = () => {
   return (
     <section
       className={`${styles.Education} ${isVisible ? "active" : ""}`}
+      name="Education"
       ref={sectionRef}
     >
       <h1 className="section-header" style={{ "--x": "5%", "--y": "1rem" }}>

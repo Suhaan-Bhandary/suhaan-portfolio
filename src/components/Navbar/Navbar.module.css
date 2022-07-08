@@ -1,0 +1,175 @@
+.Navbar {
+  position: fixed;
+  z-index: 2000;
+  top: 0;
+  left: 0;
+
+  display: flex;
+
+  width: 100%;
+  height: 80px;
+  padding: 0 30px;
+
+  transition: 0.5s;
+
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Navbar.sticky {
+  padding: 30px 50px;
+  background-color: var(--bg-white);
+  box-shadow: var(--box-shadow);
+}
+
+.toggle {
+  display: none;
+}
+
+.logo {
+  font-size: 40px;
+  font-style: normal;
+  line-height: 0.3;
+
+  letter-spacing: 0.01em;
+
+  color: var(--accent-color);
+}
+
+.menu {
+  position: relative;
+
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu .projectLink {
+  font-weight: 500;
+
+  color: var(--accent-color);
+}
+
+.menu li {
+  padding: 0 12px;
+
+  list-style: none;
+}
+
+.menu li a{
+  font-size: 1.2rem;
+
+  cursor: pointer;
+
+  color: var(--bg-dark);
+}
+
+.menu li a::after {
+  display: flex;
+
+  width: 0;
+  height: 2px;
+  margin: 0 auto;
+
+  content: "";
+  transition: all 0.5s;
+  transition-delay: 0.2s;
+
+  background-color: var(--accent-color);
+}
+
+.menu li a.active::after {
+  width: 100%;
+}
+
+
+@media only screen and (max-width: 60rem) {
+  .Navbar {
+    flex-direction: column;
+
+    padding: 0;
+
+    background: var(--bg-white);
+
+    backdrop-filter: blur(5px);
+  }
+  .Navbar.sticky {
+    padding: 0 0;
+
+    background: transparent;
+  }
+  .headerContainer {
+    display: flex;
+    z-index: 1005;
+
+    width: 100%;
+    padding: 20px;
+    /* background: #fff; */
+
+    background: var(--bg-white);
+
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .toggle {
+    width: 40px;
+    height: 40px;
+    display: block;
+
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .toggle .icon {
+    font-size: 2.5em;
+    position: absolute;
+  }
+
+  .toggle .menuIcon,
+  .toggle.active .closeIcon {
+    opacity: 1;
+  }
+
+  .toggle.active .menuIcon,
+  .toggle .closeIcon {
+    opacity: 0;
+  }
+
+  .menu {
+    position: absolute;
+    right: -100%;
+
+    display: block;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+
+
+    width: 100%;
+    height: 100vh;
+    padding: 15px 10px;
+
+    opacity: 1;
+    background: var(--bg-light);
+
+    transition: 0.5s;
+
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .menu.active {
+    right: 0;
+  }
+
+  .menu li a {
+    font-size: 25px;
+    font-weight: 600;
+    text-decoration: none;
+  }
+}

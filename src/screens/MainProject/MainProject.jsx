@@ -18,6 +18,7 @@ const MainProject = () => {
   return (
     <section
       className={`MainProject ${isVisible ? "active" : ""}`}
+      name="Projects"
       ref={sectionRef}
     >
       <h1 className="section-header" style={{ "--x": "5%", "--y": "1rem" }}>

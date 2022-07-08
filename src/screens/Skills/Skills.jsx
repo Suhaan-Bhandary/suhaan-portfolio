@@ -2,11 +2,12 @@ import { UseActiveOnScroll } from "../../hooks/useActiveOnScroll";
 import styles from "./Skills.module.css";
 
 const Skills = () => {
-  const { observerRef: sectionRef, isVisible } = UseActiveOnScroll(0.3);
+  const { observerRef: sectionRef, isVisible } = UseActiveOnScroll(0.2);
 
   return (
     <section
       className={`${styles.Skills} ${isVisible ? "active" : ""}`}
+      name="Skills"
       ref={sectionRef}
     >
       <div className={styles.content}>

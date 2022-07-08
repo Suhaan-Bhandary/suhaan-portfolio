@@ -1,5 +1,5 @@
 .Avatar {
-  transform: scale(1.4);
+  transform: scale(1.2);
 }
 
 .avatarBackground {
@@ -8,7 +8,7 @@
 
 @media (min-width: 30rem) {
   .Avatar {
-    transform: scale(1.5);
+    transform: scale(1.4);
   }
 }
 

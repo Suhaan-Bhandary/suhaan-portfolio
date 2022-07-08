@@ -9,6 +9,7 @@ const About = () => {
   return (
     <section
       className={`${styles.About} ${isVisible ? "active" : ""}`}
+      name="About"
       ref={sectionRef}
     >
       <h1 className="section-header" style={{ "--x": "5%", "--y": "0rem" }}>

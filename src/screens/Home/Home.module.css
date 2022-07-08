@@ -2,7 +2,8 @@
   width: 100%;
   min-height: 100vh;
 
-  background-color: var(--bg-light);
+  background-color: var(--bg-white);
+  /* background-color: var(--bg-light); */
 
   display: grid;
   grid-template-rows: 1fr 1fr;
@@ -13,6 +14,11 @@
 
   overflow: hidden;
 }
+
+.content{
+  padding-top: 8rem;
+}
+
 
 .title {
   font-size: 2rem;
@@ -51,12 +57,15 @@
   display: inline-block;
   padding: 0.5rem 1rem;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 .btn:hover,
 .btn:focus {
   opacity: 0.8;
 }
+
+
 
 @media (min-width: 30rem) {
   .Home {
@@ -66,8 +75,8 @@
   }
 
   .title {
-    font-size: 3rem;
-    line-height: 3rem;
+    font-size: 2rem;
+    line-height: 2rem;
     font-weight: 800;
   }
 
@@ -82,6 +91,10 @@
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: 1fr 1fr;
+  }
+
+  .content{
+    padding-top: 0;
   }
 
   .title {

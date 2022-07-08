@@ -36,3 +36,15 @@
 .content li {
   list-style-position: inside;
 }
+
+@media (max-width: 800px) {
+  .Skills{
+    margin-bottom: -1rem;
+  }
+  .content{
+    /* background-color: red; */
+  transform: translateY(-30%);
+  gap: 1rem;
+    flex-direction: column;
+  }
+}
