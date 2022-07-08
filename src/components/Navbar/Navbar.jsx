@@ -46,7 +46,7 @@ const Navbar = () => {
                 offset={offset}
                 onClick={() => setShowMenu(() => !showMenu)}
                 onSetActive={() =>
-                  setDocumentTitle(`${name} Section | Suhaan's Portfolio`)
+                  setDocumentTitle(`Suhaan's Portfolio | ${name}`)
                 }
                 className={name === "Projects" ? styles.projectLink : ""}
               >
