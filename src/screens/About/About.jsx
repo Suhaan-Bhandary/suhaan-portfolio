@@ -20,6 +20,7 @@ const About = () => {
           Hi!, I am Suhaan Bhandary, and currently studying Computer Engineering
           at KKWIEER.
         </p>
+        <p>I am Core Commitee Member at MIBCS Club.</p>
         <p>I enjoy building websites and exploring new technologies.</p>
 
         <p>
