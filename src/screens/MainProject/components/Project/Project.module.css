@@ -96,7 +96,7 @@
   opacity: 0.8;
 }
 
-@media (min-width: 60em) {
+@media (min-width: 60rem) {
   .Project {
     grid-template-rows: 1fr;
     grid-template-columns: 3fr 2fr;

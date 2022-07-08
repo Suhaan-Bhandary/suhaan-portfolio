@@ -1,0 +1,20 @@
+.Avatar {
+  transform: scale(1.4);
+}
+
+.avatarBackground {
+  fill: var(--avatar-bg-color);
+}
+
+@media (min-width: 30rem) {
+  .Avatar {
+    transform: scale(1.5);
+  }
+}
+
+
+@media (min-width: 90rem) {
+  .Avatar {
+    transform: scale(2);
+  }
+}
