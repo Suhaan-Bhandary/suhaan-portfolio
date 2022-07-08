@@ -1,0 +1,25 @@
+{
+  "milestones": [
+    {
+      "title": "BE Computer",
+      "address": "K. K. Wagh Institute Of Engineering Education And Research - Nashik",
+      "highlights": null,
+
+      "year": "2020 - 2024"
+    },
+    {
+      "title": "HSC",
+      "address": "Matoshri Junior College - Nashik",
+      "highlights": ["Percentage: 78.92%", "Maths: 94/100"],
+
+      "year": "2019 - 2020"
+    },
+    {
+      "title": "SSC",
+      "address": "St Francis High School - Nashik",
+      "highlights": ["Percentage: 87.80%", "Maths: 100/100"],
+
+      "year": "2017 - 2018"
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+.EducationMileStone {
+  position: relative;
+
+  box-sizing: border-box;
+  width: 50%;
+  padding: 1.5rem 3rem;
+
+  list-style: none;
+  
+}
+.EducationMileStone:nth-child(odd) {
+  float: left;
+  clear: both;
+
+  text-align: right;
+}
+.EducationMileStone:nth-child(even) {
+  float: right;
+  clear: both;
+
+  text-align: left;
+}
+
+.content {
+  padding-bottom: 2rem;
+}
+
+.EducationMileStone:nth-child(odd):before {
+  position: absolute;
+  top: 24px;
+  right: -6px;
+
+  width: 10px;
+  height: 10px;
+
+  content: "";
+
+  border-radius: 50%;
+  background: var(--accent-color);
+  box-shadow: 0 0 0 3px rgb(169 192 241 / 30%);
+}
+.EducationMileStone:nth-child(even):before {
+  position: absolute;
+  top: 24px;
+  left: -4px;
+
+  width: 10px;
+  height: 10px;
+
+  content: "";
+
+  border-radius: 50%;
+  background: var(--accent-color);
+  box-shadow: 0 0 0 3px rgb(169 192 241 / 30%);
+}
+
+.EducationMileStone > p {
+  width: 80%;
+  margin: 10px 0 0;
+  padding: 0;
+}
+
+.EducationMileStone:nth-child(odd) p {
+  margin-left: 20%;
+}
+
+.EducationMileStone:nth-child(even) p {
+  margin-right: 20%;
+}
+
+.EducationMileStone .time h4 {
+  font-size: 1rem;
+  font-weight: 500;
+
+  margin: 0;
+  padding: 0;
+
+  color: #fff;
+}
+.EducationMileStone:nth-child(odd) .time {
+  position: absolute;
+  top: 12px;
+  right: -165px;
+
+  margin: 0;
+  padding: 0.5rem 1.5rem;
+
+  color: #fff;
+  border-radius: 18px;
+  background: var(--accent-color);
+  box-shadow: 0 0 0 3px rgb(169 192 241 / 30%);
+}
+.EducationMileStone:nth-child(even) .time {
+  position: absolute;
+  top: 12px;
+  left: -165px;
+
+  margin: 0;
+  padding: 0.5rem 1.5rem;
+
+  color: #fff;
+  border-radius: 18px;
+  background: var(--accent-color);
+  box-shadow: 0 0 0 3px rgb(169 192 241 / 30%);
+}
+
+.highlight {
+  font-weight: 600;
+}
+
+@media (max-width: 767px) {
+  section.skills {
+    flex-direction: column;
+  }
+
+  .timeline {
+    width: 100%;
+    padding-bottom: 0;
+  }
+  
+  .timeline:before {
+    left: 20px;
+
+    height: 100%;
+  }
+  .EducationMileStone:nth-child(odd),
+  .EducationMileStone:nth-child(even) {
+    width: 100%;
+    padding-bottom: 50px;
+    padding-left: 50px;
+
+    text-align: left;
+  }
+
+  .EducationMileStone:nth-last-child(2) {
+    padding-bottom: 0;
+  }
+
+  .EducationMileStone:nth-child(odd):before,
+  .EducationMileStone:nth-child(even):before {
+    top: -18px;
+    left: 16px;
+  }
+  .EducationMileStone:nth-child(odd) .time,
+  .EducationMileStone:nth-child(even) .time {
+    top: -30px;
+    right: inherit;
+    left: 50px;
+  }
+
+  .EducationMileStone:nth-child(odd) p,
+  .EducationMileStone:nth-child(even) p {
+    margin-left: 0;
+  }
+}
