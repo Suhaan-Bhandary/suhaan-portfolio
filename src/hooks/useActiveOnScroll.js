@@ -8,7 +8,6 @@ const UseActiveOnScroll = (threshold = 0) => {
     const observer = new IntersectionObserver(
       (entries) => {
         let entry = entries[0];
-        console.log(entry.intersectionRatio);
         setIsVisible(entry.isIntersecting);
       },
       { threshold: threshold }

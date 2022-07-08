@@ -17,10 +17,10 @@ const Education = () => {
       <h1 className="section-header" style={{ "--x": "5%", "--y": "1rem" }}>
         Education
       </h1>
-      <div class={styles.timeline}>
+      <div className={styles.timeline}>
         <ul>
           {EducationData &&
-            EducationData.milestones.map((milestone) => <EducationMileStone milestone={milestone} />)}
+            EducationData.milestones.map((milestone) => <EducationMileStone key={milestone.title} milestone={milestone} />)}
 
             {/* The below is used to clear the flot from both the sides */}
           <div style={{ clear: "both" }}></div>
