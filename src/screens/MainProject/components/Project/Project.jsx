@@ -30,22 +30,26 @@ const Project = ({ project }) => {
           </ul>
 
           <div className={styles.btnContainer}>
-            <a
-              href={project.codeUrl}
-              className={styles.btnCode}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Code
-            </a>
-            <a
-              href={project.liveUrl}
-              className={styles.btnLive}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Live
-            </a>
+            {project.codeUrl && (
+              <a
+                href={project.codeUrl}
+                className={styles.btnCode}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Code
+              </a>
+            )}
+            {project.liveUrl && (
+              <a
+                href={project.liveUrl}
+                className={styles.btnLive}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Live
+              </a>
+            )}
           </div>
         </div>
       </div>
