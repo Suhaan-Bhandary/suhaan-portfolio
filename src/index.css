@@ -10,22 +10,23 @@
 }
 
 :root {
-  --accent-color: rgb(116, 38, 241);
-  --avatar-bg-color: rgb(116, 38, 241);
+  --accent-color: #FF0063;
+  --avatar-bg-color: #66BFBF;
 
   --text-white: #fff;
   --text-light: #f7faff;
   --text-dark: #141c3a;
-  --home-title-color: red;
+  --home-title-color: #66BFBF;
 
   --box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
 
   --bg-white: #fff;
-  --bg-light: #f7faff;
-  --bg-dark: #141c3a;
+  --bg-light: #EAF6F6;
+  --bg-dark: hsl(180, 41%, 45%);
+  --bg-home: #FFFFFF;
 
   --btn-text-color: #fff;
-  --btn-bg-color: rgb(116, 38, 241);
+  --btn-bg-color: #FF0063;
 
   --box-border-radius: 10px;
 }

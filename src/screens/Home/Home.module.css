@@ -2,7 +2,7 @@
   width: 100%;
   min-height: 100vh;
 
-  background-color: var(--bg-white);
+  background-color: var(--bg-home);
   /* background-color: var(--bg-light); */
 
   display: grid;
