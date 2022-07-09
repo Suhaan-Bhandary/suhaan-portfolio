@@ -1,7 +1,7 @@
 import { useState } from "react";
 import styles from "./LinksSlider.module.css";
 
-import { SiGmail } from "react-icons/si";
+import { SiGmail, SiLeetcode } from "react-icons/si";
 import { BsYoutube } from "react-icons/bs";
 import { AiFillLinkedin, AiFillGithub, AiOutlinePlus } from "react-icons/ai";
 
@@ -18,7 +18,7 @@ const LinksSlider = () => {
           <AiOutlinePlus />
         </div>
 
-        <span style={{ "--id": "4" }}>
+        <span style={{ "--id": "5" }}>
           <a
             href="https://www.linkedin.com/in/suhaan-bhandary"
             target="_blank"
@@ -28,7 +28,7 @@ const LinksSlider = () => {
             <AiFillLinkedin fill="#0e76a8" className={styles.icon} />
           </a>
         </span>
-        <span style={{ "--id": "3" }}>
+        <span style={{ "--id": "4" }}>
           <a
             href="https://github.com/Suhaan-Bhandary"
             target="_blank"
@@ -38,6 +38,16 @@ const LinksSlider = () => {
             <AiFillGithub className={styles.icon} />
           </a>
         </span>
+
+        <span style={{ "--id": "3" }}>
+          <a href="https://leetcode.com/suhaanbhandary1/"
+            target="_blank"
+            rel="noopener noreferrer"
+            title="LeetCode">
+            <SiLeetcode className={styles.icon} />
+          </a>
+        </span>
+
         <span style={{ "--id": "2" }}>
           <a
             href="https://www.youtube.com/channel/UCHfmmdKuRDmZ5EUzGdqI7-Q"
