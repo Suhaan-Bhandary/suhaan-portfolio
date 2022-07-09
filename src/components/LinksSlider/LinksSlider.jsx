@@ -5,6 +5,9 @@ import { SiGmail, SiLeetcode } from "react-icons/si";
 import { BsYoutube } from "react-icons/bs";
 import { AiFillLinkedin, AiFillGithub, AiOutlinePlus } from "react-icons/ai";
 
+// Importing the personal urls
+import personalUrls from "../../assets/data/PersonalUrls.json";
+
 const LinksSlider = () => {
   const [isNavOpen, setIsNavOpen] = useState(true);
 
@@ -20,7 +23,7 @@ const LinksSlider = () => {
 
         <span style={{ "--id": "5" }}>
           <a
-            href="https://www.linkedin.com/in/suhaan-bhandary"
+            href={personalUrls.linkedIn}
             target="_blank"
             rel="noopener noreferrer"
             title="linkedin"
@@ -30,7 +33,7 @@ const LinksSlider = () => {
         </span>
         <span style={{ "--id": "4" }}>
           <a
-            href="https://github.com/Suhaan-Bhandary"
+            href={personalUrls.gitHub}
             target="_blank"
             rel="noopener noreferrer"
             title="github"
@@ -40,17 +43,19 @@ const LinksSlider = () => {
         </span>
 
         <span style={{ "--id": "3" }}>
-          <a href="https://leetcode.com/suhaanbhandary1/"
+          <a
+            href={personalUrls.leetCode}
             target="_blank"
             rel="noopener noreferrer"
-            title="LeetCode">
+            title="LeetCode"
+          >
             <SiLeetcode className={styles.icon} />
           </a>
         </span>
 
         <span style={{ "--id": "2" }}>
           <a
-            href="https://www.youtube.com/channel/UCHfmmdKuRDmZ5EUzGdqI7-Q"
+            href={personalUrls.youtube}
             target="_blank"
             rel="noopener noreferrer"
             title="youtube"
@@ -60,7 +65,7 @@ const LinksSlider = () => {
         </span>
         <span style={{ "--id": "1" }}>
           <a
-            href="mailto:Suhaanbhandary1@gmail.com?subject=Hi Suhaan"
+            href={`mailto:${personalUrls.email}?subject=Hi Suhaan`}
             title="Gmail"
           >
             <SiGmail fill="#bb001b" className={styles.icon} />
