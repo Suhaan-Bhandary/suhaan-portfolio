@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useLocalStorage } from "./hooks/useLocalStorage";
 import styles from "./LinksSlider.module.css";
 
 import { SiGmail, SiLeetcode } from "react-icons/si";
@@ -9,7 +9,7 @@ import { AiFillLinkedin, AiFillGithub, AiOutlinePlus } from "react-icons/ai";
 import personalUrls from "../../assets/data/PersonalUrls.json";
 
 const LinksSlider = () => {
-  const [isNavOpen, setIsNavOpen] = useState(true);
+  const [isNavOpen, setIsNavOpen] = useLocalStorage("navbar-open-status", true);
 
   return (
     <nav className={`${styles.LinksSlider} ${isNavOpen ? styles.open : ""}`}>
