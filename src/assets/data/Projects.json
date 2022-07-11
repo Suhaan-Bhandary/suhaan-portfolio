@@ -8,7 +8,7 @@
       "codeUrl": "https://github.com/Suhaan-Bhandary/GraphVisualizer",
       "liveUrl": null,
 
-      "imageSrc": "../images/MainProjects/AlgorithmVisualizer.png",
+      "imageSrc": "/images/MainProjects/AlgorithmVisualizer.png",
       "imageInfo": "Graph Visualizer"
     },
     {
@@ -19,7 +19,7 @@
       "codeUrl": "https://github.com/Suhaan-Bhandary/PBL-Website",
       "liveUrl": "https://suhaanchetanfenilpbl.pythonanywhere.com",
 
-      "imageSrc": "../images/MainProjects/LookUp.png",
+      "imageSrc": "/images/MainProjects/LookUp.png",
       "imageInfo": "LookUp"
     },
     {
@@ -30,7 +30,7 @@
       "codeUrl": null,
       "liveUrl": null,
 
-      "imageSrc": "../images/MainProjects/GameInUnity.png",
+      "imageSrc": "/images/MainProjects/GameInUnity.png",
       "imageInfo": "Unity Game"
     },
     {
@@ -41,7 +41,7 @@
       "codeUrl": "https://github.com/Suhaan-Bhandary/Sudoku-Game",
       "liveUrl": "https://suhaan-bhandary.github.io/Sudoku-Game/",
 
-      "imageSrc": "../images/MainProjects/SudokuGame.png",
+      "imageSrc": "/images/MainProjects/SudokuGame.png",
       "imageInfo": "Sudoku Game"
     },
     {
@@ -52,7 +52,7 @@
       "codeUrl": "https://github.com/Suhaan-Bhandary/TypingFightMultiplayer",
       "liveUrl": "hhttps://typing-fight.glitch.me",
 
-      "imageSrc": "../images/MainProjects/TypingMultiplayer.png",
+      "imageSrc": "/images/MainProjects/TypingMultiplayer.png",
       "imageInfo": "Typing Multiplayer"
     },
     {
@@ -63,7 +63,7 @@
       "codeUrl": null,
       "liveUrl": "http://suhaanbhandary.pythonanywhere.com",
 
-      "imageSrc": "../images/MainProjects/DjangoBlog.png",
+      "imageSrc": "/images/MainProjects/DjangoBlog.png",
       "imageInfo": "Django Blog"
     },
     {
@@ -74,7 +74,7 @@
       "codeUrl": "https://github.com/Suhaan-Bhandary/Maze-Generator-DFS",
       "liveUrl": "https://suhaan-bhandary.github.io/Maze-Generator-DFS",
 
-      "imageSrc": "../images/MainProjects/MazeGenerator.png",
+      "imageSrc": "/images/MainProjects/MazeGenerator.png",
       "imageInfo": "Maze Generator"
     }
   ]

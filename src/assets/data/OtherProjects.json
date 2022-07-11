@@ -8,7 +8,7 @@
       "codeUrl": "https://github.com/Suhaan-Bhandary/Stop-Watch-JS",
       "liveUrl": "https://suhaan-bhandary.github.io/Stop-Watch-JS",
 
-      "imageSrc": "../images/OtherProjects/StopWatch.png",
+      "imageSrc": "/images/OtherProjects/StopWatch.png",
       "imageInfo": "StopWatch"
     },
     {
@@ -19,7 +19,7 @@
       "codeUrl": "https://github.com/Suhaan-Bhandary/Huffman-Coding",
       "liveUrl": "https://suhaan-bhandary.github.io/Huffman-Coding",
 
-      "imageSrc": "../images/OtherProjects/HuffmanCoding.png",
+      "imageSrc": "/images/OtherProjects/HuffmanCoding.png",
       "imageInfo": "Huffman Coding"
     },
     {
@@ -30,7 +30,7 @@
       "codeUrl": "https://github.com/Suhaan-Bhandary/Wordle-Clone",
       "liveUrl": "https://suhaan-bhandary.github.io/Wordle-Clone",
 
-      "imageSrc": "../images/OtherProjects/Wordle.png",
+      "imageSrc": "/images/OtherProjects/Wordle.png",
       "imageInfo": "Wordle"
     },
     {
@@ -41,7 +41,7 @@
       "codeUrl": null,
       "liveUrl": null,
 
-      "imageSrc": "../images/OtherProjects/CoronaTracker.png",
+      "imageSrc": "/images/OtherProjects/CoronaTracker.png",
       "imageInfo": "Corona Tracker"
     },
     {
@@ -52,7 +52,7 @@
       "codeUrl": "https://github.com/Suhaan-Bhandary/warshallsAlgorithm",
       "liveUrl": "https://suhaan-bhandary.github.io/warshallsAlgorithm/",
 
-      "imageSrc": "../images/OtherProjects/WarshallAlgorithm.png",
+      "imageSrc": "/images/OtherProjects/WarshallAlgorithm.png",
       "imageInfo": "Warshall Algorithm"
     },
     {
@@ -63,7 +63,7 @@
       "codeUrl": "https://github.com/Suhaan-Bhandary/AdviceGenerator",
       "liveUrl": "https://suhaan-bhandary.github.io/AdviceGenerator",
 
-      "imageSrc": "../images/OtherProjects/adviceGenerator.png",
+      "imageSrc": "/images/OtherProjects/adviceGenerator.png",
       "imageInfo": "Advice Generator"
     },
     {
@@ -74,18 +74,18 @@
       "codeUrl": "https://github.com/Suhaan-Bhandary/QuineMcClusky",
       "liveUrl": null,
 
-      "imageSrc": "../images/OtherProjects/QuineMcCluskyMinimization.png",
+      "imageSrc": "/images/OtherProjects/QuineMcCluskyMinimization.png",
       "imageInfo": "Quine McClusky Minimization Technique"
     },
     {
       "title": "Demo Website",
-      "description": "A Simple Clone Website created after learning simple HTML and CSS, JavaScript",
+      "description": "A Simple Website created after learning simple HTML and CSS, JavaScript",
       "date": "Around 2020",
       "techStack": ["HTML/CSS", "JavaScript"],
       "codeUrl": "https://github.com/Suhaan-Bhandary/Demo-Portfolio",
       "liveUrl": "https://suhaanbhandary.github.io/fullPortfolio/",
 
-      "imageSrc": "../images/OtherProjects/DemoWebsite.png",
+      "imageSrc": "/images/OtherProjects/DemoWebsite.png",
       "imageInfo": "Demo Website"
     }
   ]

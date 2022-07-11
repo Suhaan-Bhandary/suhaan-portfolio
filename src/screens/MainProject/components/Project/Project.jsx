@@ -8,7 +8,7 @@ const Project = ({ project }) => {
     <div className={styles.Project}>
       <Atropos className={styles.imageContainer} shadowScale={0.8}>
         <img
-          src={`${project.imageSrc}`}
+          src={process.env.PUBLIC_URL + `${project.imageSrc}`}
           alt={project.imageInfo}
           data-atropos-offset="0"
         />
