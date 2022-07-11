@@ -10,6 +10,7 @@
   color: var(--text-dark);
 }
 
+/* 
 :root {
   --accent-color: #FF0063;
   --avatar-bg-color: #66BFBF;
@@ -31,8 +32,24 @@
 
   --box-border-radius: 10px;
 }
+*/
 
-
+:root {
+	--accent-color: #a624ff;
+	--avatar-bg-color: #a624ff;
+	--text-white: #fff;
+	--text-light: #f7faff;
+	--text-dark: #141c3a;
+	--home-title-color: #15a6a6;
+	--box-shadow: hsla(240,5%,41%,.2) 0 7px 29px 0;
+	--bg-white: #fff;
+	--bg-light: #eaf6f6;
+	--bg-dark: #15a6a6;
+	--bg-home: #fff;
+	--btn-text-color: #fff;
+	--btn-bg-color: #a624ff;
+	--box-border-radius: 10px;
+}
 /* Common CSS Properties For the Project*/
 section {
   width: 100%;
