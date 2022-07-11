@@ -1,34 +1,81 @@
 {
   "projects": [
     {
-      "title": "Stopwatch",
-      "description": "It's a simple Stop-Watch created using HTML, CSS, and JS.\nThis project was created to brush up on the skills of JS and also to try the conic gradient style in CSS.",
-      "date": "June 2022",
-      "techStack": ["HTML", "CSS", "JavaScript"],
-      "codeUrl": "https://github.com/Suhaan-Bhandary/Stop-Watch-JS",
-      "liveUrl": "https://suhaan-bhandary.github.io/Stop-Watch-JS",
-      "imageSrc": "../images/Projects/StopWatch.png",
-      "imageInfo": "StopWatch"
+      "title": "Graph Visualizer",
+      "description": "It is a Graph Visualizer created in Java in which one can create custom graphs and visualize BFS, DFS, Dijkstra, Components, Spanning Tree, Bridges, and Articulation point.\nWe won First Prize in DSA Mini Project in Second Year with this Project.",
+      "date": "May 2022",
+      "techStack": ["JAVA", "JavaFX", "XML"],
+      "codeUrl": "https://github.com/Suhaan-Bhandary/GraphVisualizer",
+      "liveUrl": null,
+
+      "imageSrc": "../images/MainProjects/AlgorithmVisualizer.png",
+      "imageInfo": "Graph Visualizer"
     },
     {
-      "title": "Huffman Coding",
-      "description": "A Simple React App for visualizing Huffman Coding concept built in 1 Day Challenge.\nLive Updation of Tree as the message Changes\nThis Project was created as a Part of DSA Subject",
-      "date": "March 2022",
-      "techStack": ["React", "react-icons", "heap"],
-      "codeUrl": "https://github.com/Suhaan-Bhandary/Huffman-Coding",
-      "liveUrl": "https://suhaan-bhandary.github.io/Huffman-Coding",
-      "imageSrc": "../images/Projects/HuffmanCoding.png",
-      "imageInfo": "HuffmanCoding"
+      "title": "LookUp",
+      "description": "It was a PBL project in the First Year, This project was a custom notification app where teachers can post assignments, news, and instructions, and students were notified using Gmail. It had active 100 users when Online Classes were going.",
+      "date": "June 2021",
+      "techStack": ["Django", "Django RestApi", "React", "Sqlite"],
+      "codeUrl": "https://github.com/Suhaan-Bhandary/PBL-Website",
+      "liveUrl": "https://suhaanchetanfenilpbl.pythonanywhere.com",
+
+      "imageSrc": "../images/MainProjects/LookUp.png",
+      "imageInfo": "LookUp"
     },
     {
-      "title": "Project",
-      "description": "This is a simple project that is used as an example and we are enjoying it and loving it!",
-      "date": "No Date",
+      "title": "Unity Game",
+      "description": "A Third Person Shooter Game created using Unity.\nThis project was created for the CG subject in Third Semester and it won First Prize in CG mini project.",
+      "date": "2021",
+      "techStack": ["Unity", "C#"],
+      "codeUrl": null,
+      "liveUrl": null,
+
+      "imageSrc": "../images/MainProjects/GameInUnity.png",
+      "imageInfo": "Unity Game"
+    },
+    {
+      "title": "Sudoku",
+      "description": "A Full Featured Sudoku Game. Features of Sudoku: Hard Mode, Hints, Auto Solve, Danger Indication and Animations.\nWas Created as a Case Study for Discrete Maths",
+      "date": "October 2021",
+      "techStack": ["React", "Backtracking", "LottieFiles"],
+      "codeUrl": "https://github.com/Suhaan-Bhandary/Sudoku-Game",
+      "liveUrl": "https://suhaan-bhandary.github.io/Sudoku-Game/",
+
+      "imageSrc": "../images/MainProjects/SudokuGame.png",
+      "imageInfo": "Sudoku Game"
+    },
+    {
+      "title": "Typing Multiplayer",
+      "description": "A Website which can be used to host Typing Games and Chat with Friends and one can also Join other Groups and spend fun times with other and compare speeds using charts and learn typing.",
+      "date": "August 2021",
+      "techStack": ["JavaScript", "SocketIo", "HTML/CSS"],
+      "codeUrl": "https://github.com/Suhaan-Bhandary/TypingFightMultiplayer",
+      "liveUrl": "hhttps://typing-fight.glitch.me",
+
+      "imageSrc": "../images/MainProjects/TypingMultiplayer.png",
+      "imageInfo": "Typing Multiplayer"
+    },
+    {
+      "title": "Django Blog",
+      "description": "A Full Featured Django Blog with Markdown support. This Project has User and Admin Authentication and users can comment on blogs and others comments.",
+      "date": "December 2020",
+      "techStack": ["Django", "HTML/CSS", "JavaScript"],
+      "codeUrl": null,
+      "liveUrl": "http://suhaanbhandary.pythonanywhere.com",
+
+      "imageSrc": "../images/MainProjects/DjangoBlog.png",
+      "imageInfo": "Django Blog"
+    },
+    {
+      "title": "Maze Generator",
+      "description": "A Maze-Generator using DFS Algorithm which can be used to generate mazes and also get the solution of the generated mazes.",
+      "date": "Jan 2021",
       "techStack": ["React", "react-icons", "heap"],
-      "codeUrl": "https://github.com/Suhaan-Bhandary/Huffman-Coding",
-      "liveUrl": "https://suhaan-bhandary.github.io/Huffman-Coding",
-      "imageSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlpijPo7tRUz6qgcgC3FHFjQFgGFN4Qop_ow&usqp=CAU",
-      "imageInfo": "HuffmanCoding"
+      "codeUrl": "https://github.com/Suhaan-Bhandary/Maze-Generator-DFS",
+      "liveUrl": "https://suhaan-bhandary.github.io/Maze-Generator-DFS",
+
+      "imageSrc": "../images/MainProjects/MazeGenerator.png",
+      "imageInfo": "Maze Generator"
     }
   ]
 }

@@ -1,34 +1,92 @@
 {
   "projects": [
     {
-      "title": "Stopwatch",
-      "description": "It's a simple Stop-Watch created using HTML, CSS, and JS. This project can be used to check stopwatch",
+      "title": "StopWatch",
+      "description": "It's a simple Stop-Watch created using HTML, CSS, and JS. It can be used as a stopwatch with custom sound for ring",
       "date": "June 2022",
       "techStack": ["HTML", "CSS", "JavaScript"],
       "codeUrl": "https://github.com/Suhaan-Bhandary/Stop-Watch-JS",
       "liveUrl": "https://suhaan-bhandary.github.io/Stop-Watch-JS",
-      "imageSrc": "../images/Projects/StopWatch.png",
+
+      "imageSrc": "../images/OtherProjects/StopWatch.png",
       "imageInfo": "StopWatch"
     },
     {
       "title": "Huffman Coding",
-      "description": "A Simple React App for visualizing Huffman Coding concept built in 1 Day Challenge.",
+      "description": "A Text Encryption and Compression Project using Huffman Coding",
       "date": "March 2022",
-      "techStack": ["React", "react-icons", "heap"],
+      "techStack": ["React", "react-icons", "Heap"],
       "codeUrl": "https://github.com/Suhaan-Bhandary/Huffman-Coding",
       "liveUrl": "https://suhaan-bhandary.github.io/Huffman-Coding",
-      "imageSrc": "../images/Projects/HuffmanCoding.png",
-      "imageInfo": "HuffmanCoding"
+
+      "imageSrc": "../images/OtherProjects/HuffmanCoding.png",
+      "imageInfo": "Huffman Coding"
     },
     {
-      "title": "Project",
-      "description": "This is a simple project that is used as an example and we are enjoying it and loving it!",
+      "title": "Wordle",
+      "description": "A clone of the popular game Wordle, Guess the Five Letter words in only 5 Turns!!",
+      "date": "Feb 2022",
+      "techStack": ["React", "HTML/CSS", "JavaScript"],
+      "codeUrl": "https://github.com/Suhaan-Bhandary/Wordle-Clone",
+      "liveUrl": "https://suhaan-bhandary.github.io/Wordle-Clone",
+
+      "imageSrc": "../images/OtherProjects/Wordle.png",
+      "imageInfo": "Wordle"
+    },
+    {
+      "title": "Corona Tracker",
+      "description": "A Corona Tracker built to track the stats of corona in India",
+      "date": "Around 2021",
+      "techStack": ["React", "Open API"],
+      "codeUrl": null,
+      "liveUrl": null,
+
+      "imageSrc": "../images/OtherProjects/CoronaTracker.png",
+      "imageInfo": "Corona Tracker"
+    },
+    {
+      "title": "Warshall Algorithm",
+      "description": "Implementation of Warshall algorithm, to get Transitive Clousures",
+      "date": "October 2021",
+      "techStack": ["Chrome Extension", "HTML/CSS", "JavaScript"],
+      "codeUrl": "https://github.com/Suhaan-Bhandary/warshallsAlgorithm",
+      "liveUrl": "https://suhaan-bhandary.github.io/warshallsAlgorithm/",
+
+      "imageSrc": "../images/OtherProjects/WarshallAlgorithm.png",
+      "imageInfo": "Warshall Algorithm"
+    },
+    {
+      "title": "Advice Generator",
+      "description": "A Challenge from Frontend Mentor to Create a Advice Generator",
       "date": "No Date",
       "techStack": ["React", "react-icons", "heap"],
-      "codeUrl": "https://github.com/Suhaan-Bhandary/Huffman-Coding",
-      "liveUrl": "https://suhaan-bhandary.github.io/Huffman-Coding",
-      "imageSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlpijPo7tRUz6qgcgC3FHFjQFgGFN4Qop_ow&usqp=CAU",
-      "imageInfo": "HuffmanCoding"
+      "codeUrl": "https://github.com/Suhaan-Bhandary/AdviceGenerator",
+      "liveUrl": "https://suhaan-bhandary.github.io/AdviceGenerator",
+
+      "imageSrc": "../images/OtherProjects/adviceGenerator.png",
+      "imageInfo": "Advice Generator"
+    },
+    {
+      "title": "Quine McClusky",
+      "description": "Implemetation of Quine McClusky Minimization Technique in C++, created as a side project for DELD subject in Second Year",
+      "date": "October 2021",
+      "techStack": ["C++", "DSA"],
+      "codeUrl": "https://github.com/Suhaan-Bhandary/QuineMcClusky",
+      "liveUrl": null,
+
+      "imageSrc": "../images/OtherProjects/QuineMcCluskyMinimization.png",
+      "imageInfo": "Quine McClusky Minimization Technique"
+    },
+    {
+      "title": "Demo Website",
+      "description": "A Simple Clone Website created after learning simple HTML and CSS, JavaScript",
+      "date": "Around 2020",
+      "techStack": ["HTML/CSS", "JavaScript"],
+      "codeUrl": "https://github.com/Suhaan-Bhandary/Demo-Portfolio",
+      "liveUrl": "https://suhaanbhandary.github.io/fullPortfolio/",
+
+      "imageSrc": "../images/OtherProjects/DemoWebsite.png",
+      "imageInfo": "Demo Website"
     }
   ]
 }
