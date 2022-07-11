@@ -27,7 +27,7 @@ const OtherProject = () => {
 
       <Swiper
         className="other-project-swiper"
-        loop={true}
+        loop={false}
         autoplay={{ delay: 2000 }}
         pagination={{ clickable: true }}
         keyboard={{ enabled: true }}

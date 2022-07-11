@@ -27,7 +27,7 @@ const MainProject = () => {
 
       <Swiper
         className="main-project-swiper"
-        loop={true}
+        loop={false}
         autoplay={{
           delay: 3000,
           disableOnInteraction: true,
