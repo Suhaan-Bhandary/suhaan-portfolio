@@ -9,6 +9,7 @@
       "liveUrl": "https://suhaan-bhandary.github.io/Stop-Watch-JS",
 
       "imageSrc": "/images/OtherProjects/StopWatch.png",
+      "imageSrcWebP": "/images/OtherProjects/StopWatch.webp",
       "imageInfo": "StopWatch"
     },
     {
@@ -20,6 +21,7 @@
       "liveUrl": "https://suhaan-bhandary.github.io/Huffman-Coding",
 
       "imageSrc": "/images/OtherProjects/HuffmanCoding.png",
+      "imageSrcWebP": "/images/OtherProjects/HuffmanCoding.webp",
       "imageInfo": "Huffman Coding"
     },
     {
@@ -31,6 +33,7 @@
       "liveUrl": "https://suhaan-bhandary.github.io/Wordle-Clone",
 
       "imageSrc": "/images/OtherProjects/Wordle.png",
+      "imageSrcWebP": "/images/OtherProjects/Wordle.webp",
       "imageInfo": "Wordle"
     },
     {
@@ -42,6 +45,7 @@
       "liveUrl": null,
 
       "imageSrc": "/images/OtherProjects/CoronaTracker.png",
+      "imageSrcWebP": "/images/OtherProjects/CoronaTracker.webp",
       "imageInfo": "Corona Tracker"
     },
     {
@@ -53,6 +57,7 @@
       "liveUrl": "https://suhaan-bhandary.github.io/warshallsAlgorithm/",
 
       "imageSrc": "/images/OtherProjects/WarshallAlgorithm.png",
+      "imageSrcWebP": "/images/OtherProjects/WarshallAlgorithm.webp",
       "imageInfo": "Warshall Algorithm"
     },
     {
@@ -64,6 +69,7 @@
       "liveUrl": "https://suhaan-bhandary.github.io/AdviceGenerator",
 
       "imageSrc": "/images/OtherProjects/adviceGenerator.png",
+      "imageSrcWebP": "/images/OtherProjects/adviceGenerator.webp",
       "imageInfo": "Advice Generator"
     },
     {
@@ -75,6 +81,7 @@
       "liveUrl": null,
 
       "imageSrc": "/images/OtherProjects/QuineMcCluskyMinimization.png",
+      "imageSrcWebP": "/images/OtherProjects/QuineMcCluskyMinimization.webp",
       "imageInfo": "Quine McClusky Minimization Technique"
     },
     {
@@ -86,6 +93,7 @@
       "liveUrl": "https://suhaanbhandary.github.io/fullPortfolio/",
 
       "imageSrc": "/images/OtherProjects/DemoWebsite.png",
+      "imageSrcWebP": "/images/OtherProjects/DemoWebsite.webp",
       "imageInfo": "Demo Website"
     }
   ]

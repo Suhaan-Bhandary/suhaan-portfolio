@@ -9,6 +9,7 @@
       "liveUrl": null,
 
       "imageSrc": "/images/MainProjects/AlgorithmVisualizer.png",
+      "imageSrcWebP": "/images/MainProjects/AlgorithmVisualizer.webp",
       "imageInfo": "Graph Visualizer"
     },
     {
@@ -20,6 +21,7 @@
       "liveUrl": "https://suhaanchetanfenilpbl.pythonanywhere.com",
 
       "imageSrc": "/images/MainProjects/LookUp.png",
+      "imageSrcWebP": "/images/MainProjects/LookUp.webp",
       "imageInfo": "LookUp"
     },
     {
@@ -31,6 +33,7 @@
       "liveUrl": null,
 
       "imageSrc": "/images/MainProjects/GameInUnity.png",
+      "imageSrcWebP": "/images/MainProjects/GameInUnity.webp",
       "imageInfo": "Unity Game"
     },
     {
@@ -42,6 +45,7 @@
       "liveUrl": "https://suhaan-bhandary.github.io/Sudoku-Game/",
 
       "imageSrc": "/images/MainProjects/SudokuGame.png",
+      "imageSrcWebP": "/images/MainProjects/SudokuGame.webp",
       "imageInfo": "Sudoku Game"
     },
     {
@@ -53,6 +57,7 @@
       "liveUrl": "hhttps://typing-fight.glitch.me",
 
       "imageSrc": "/images/MainProjects/TypingMultiplayer.png",
+      "imageSrcWebP": "/images/MainProjects/TypingMultiplayer.webp",
       "imageInfo": "Typing Multiplayer"
     },
     {
@@ -64,6 +69,7 @@
       "liveUrl": "http://suhaanbhandary.pythonanywhere.com",
 
       "imageSrc": "/images/MainProjects/DjangoBlog.png",
+      "imageSrcWebP": "/images/MainProjects/DjangoBlog.webp",
       "imageInfo": "Django Blog"
     },
     {
@@ -75,6 +81,7 @@
       "liveUrl": "https://suhaan-bhandary.github.io/Maze-Generator-DFS",
 
       "imageSrc": "/images/MainProjects/MazeGenerator.png",
+      "imageSrcWebP": "/images/MainProjects/MazeGenerator.webp",
       "imageInfo": "Maze Generator"
     }
   ]

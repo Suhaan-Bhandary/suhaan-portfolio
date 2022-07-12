@@ -1,17 +1,23 @@
-import Atropos from "atropos/react";
-import "atropos/css";
+import Atropos from 'atropos/react';
+import 'atropos/css';
 
-import styles from "./Project.module.css";
+import styles from './Project.module.css';
 
 const Project = ({ project }) => {
   return (
     <div className={styles.Project}>
       <Atropos className={styles.imageContainer} shadowScale={0.8}>
-        <img
-          src={process.env.PUBLIC_URL + `${project.imageSrc}`}
-          alt={project.imageInfo}
-          data-atropos-offset="0"
-        />
+        <picture>
+          <source
+            srcSet={process.env.PUBLIC_URL + `${project.imageSrcWebP}`}
+            type="image/webp"
+          />
+          <img
+            src={process.env.PUBLIC_URL + `${project.imageSrc}`}
+            alt={project.imageInfo}
+            data-atropos-offset="0"
+          />
+        </picture>
         <p className={styles.date}>
           Create On: <span>{project.date}</span>
         </p>
