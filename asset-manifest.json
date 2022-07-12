@@ -1,16 +1,42 @@
 {
   "files": {
     "main.css": "/suhaan-portfolio/static/css/main.0fce8d15.css",
-    "main.js": "/suhaan-portfolio/static/js/main.1de44d9a.js",
+    "main.js": "/suhaan-portfolio/static/js/main.968dd5f0.js",
     "static/js/787.d4e7544c.chunk.js": "/suhaan-portfolio/static/js/787.d4e7544c.chunk.js",
+    "static/media/DemoWebsite.png": "/suhaan-portfolio/static/media/DemoWebsite.d46b54beb8ff87e0e663.png",
+    "static/media/TypingMultiplayer.png": "/suhaan-portfolio/static/media/TypingMultiplayer.c387dd1eb0b88bed43fe.png",
+    "static/media/DjangoBlog.png": "/suhaan-portfolio/static/media/DjangoBlog.8b6d7ccca6f07411add4.png",
     "static/media/Resume.pdf": "/suhaan-portfolio/static/media/Resume.c823950da6da82e5f5ec.pdf",
+    "static/media/DemoWebsite.webp": "/suhaan-portfolio/static/media/DemoWebsite.33dc492e8780864799a9.webp",
+    "static/media/GameInUnity.png": "/suhaan-portfolio/static/media/GameInUnity.ca959b9d0ca171108f6a.png",
+    "static/media/DjangoBlog.webp": "/suhaan-portfolio/static/media/DjangoBlog.489ba343252b99567fc1.webp",
+    "static/media/QuineMcCluskyMinimization.webp": "/suhaan-portfolio/static/media/QuineMcCluskyMinimization.4f8e23cf35e40cfd01e6.webp",
+    "static/media/QuineMcCluskyMinimization.png": "/suhaan-portfolio/static/media/QuineMcCluskyMinimization.dc8d3a7f769bbb8890b9.png",
+    "static/media/LookUp.webp": "/suhaan-portfolio/static/media/LookUp.e7e7437c0f5a8ce02cf2.webp",
+    "static/media/TypingMultiplayer.webp": "/suhaan-portfolio/static/media/TypingMultiplayer.788b649869aaf358addf.webp",
+    "static/media/CoronaTracker.webp": "/suhaan-portfolio/static/media/CoronaTracker.bedccaca33a9462d04a0.webp",
+    "static/media/LookUp.png": "/suhaan-portfolio/static/media/LookUp.0b1d67a442250a04fd50.png",
+    "static/media/AlgorithmVisualizer.webp": "/suhaan-portfolio/static/media/AlgorithmVisualizer.123d7fb86c1f85aea960.webp",
+    "static/media/HuffmanCoding.webp": "/suhaan-portfolio/static/media/HuffmanCoding.984bcbc517ae1853087a.webp",
+    "static/media/CoronaTracker.png": "/suhaan-portfolio/static/media/CoronaTracker.d9f83fe9638791fb1249.png",
+    "static/media/AlgorithmVisualizer.png": "/suhaan-portfolio/static/media/AlgorithmVisualizer.5da3f8aa48eaad18e52d.png",
+    "static/media/MazeGenerator.webp": "/suhaan-portfolio/static/media/MazeGenerator.54a3581b35c77c63b04d.webp",
+    "static/media/SudokuGame.webp": "/suhaan-portfolio/static/media/SudokuGame.4a883034aa7cdd9e1bb0.webp",
+    "static/media/HuffmanCoding.png": "/suhaan-portfolio/static/media/HuffmanCoding.5eea11b198e6abf0b709.png",
+    "static/media/StopWatch.png": "/suhaan-portfolio/static/media/StopWatch.38d9e7bfe4eb050c8adc.png",
+    "static/media/GameInUnity.webp": "/suhaan-portfolio/static/media/GameInUnity.4917c04da94724d8762e.webp",
+    "static/media/StopWatch.webp": "/suhaan-portfolio/static/media/StopWatch.77be4a1bbf8e1db909a4.webp",
+    "static/media/adviceGenerator.webp": "/suhaan-portfolio/static/media/adviceGenerator.a7e56b91cd023992b9f4.webp",
+    "static/media/WarshallAlgorithm.webp": "/suhaan-portfolio/static/media/WarshallAlgorithm.3a61812b6110a7664c4c.webp",
+    "static/media/Wordle.webp": "/suhaan-portfolio/static/media/Wordle.212265358c62c3fad9cf.webp",
+    "static/media/3dBox.webp": "/suhaan-portfolio/static/media/3dBox.9e46096ae9a55ef09356.webp",
     "index.html": "/suhaan-portfolio/index.html",
     "main.0fce8d15.css.map": "/suhaan-portfolio/static/css/main.0fce8d15.css.map",
-    "main.1de44d9a.js.map": "/suhaan-portfolio/static/js/main.1de44d9a.js.map",
+    "main.968dd5f0.js.map": "/suhaan-portfolio/static/js/main.968dd5f0.js.map",
     "787.d4e7544c.chunk.js.map": "/suhaan-portfolio/static/js/787.d4e7544c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0fce8d15.css",
-    "static/js/main.1de44d9a.js"
+    "static/js/main.968dd5f0.js"
   ]
 }
