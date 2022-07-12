@@ -8,8 +8,8 @@
       "codeUrl": "https://github.com/Suhaan-Bhandary/Stop-Watch-JS",
       "liveUrl": "https://suhaan-bhandary.github.io/Stop-Watch-JS",
 
-      "imageSrc": "/images/OtherProjects/StopWatch.png",
-      "imageSrcWebP": "/images/OtherProjects/StopWatch.webp",
+      "imageSrc": "/StopWatch.png",
+      "imageSrcWebP": "/StopWatch.webp",
       "imageInfo": "StopWatch"
     },
     {
@@ -20,8 +20,8 @@
       "codeUrl": "https://github.com/Suhaan-Bhandary/Huffman-Coding",
       "liveUrl": "https://suhaan-bhandary.github.io/Huffman-Coding",
 
-      "imageSrc": "/images/OtherProjects/HuffmanCoding.png",
-      "imageSrcWebP": "/images/OtherProjects/HuffmanCoding.webp",
+      "imageSrc": "/HuffmanCoding.png",
+      "imageSrcWebP": "/HuffmanCoding.webp",
       "imageInfo": "Huffman Coding"
     },
     {
@@ -32,8 +32,8 @@
       "codeUrl": "https://github.com/Suhaan-Bhandary/Wordle-Clone",
       "liveUrl": "https://suhaan-bhandary.github.io/Wordle-Clone",
 
-      "imageSrc": "/images/OtherProjects/Wordle.png",
-      "imageSrcWebP": "/images/OtherProjects/Wordle.webp",
+      "imageSrc": "/Wordle.png",
+      "imageSrcWebP": "/Wordle.webp",
       "imageInfo": "Wordle"
     },
     {
@@ -44,8 +44,8 @@
       "codeUrl": null,
       "liveUrl": null,
 
-      "imageSrc": "/images/OtherProjects/CoronaTracker.png",
-      "imageSrcWebP": "/images/OtherProjects/CoronaTracker.webp",
+      "imageSrc": "/CoronaTracker.png",
+      "imageSrcWebP": "/CoronaTracker.webp",
       "imageInfo": "Corona Tracker"
     },
     {
@@ -56,8 +56,8 @@
       "codeUrl": "https://github.com/Suhaan-Bhandary/warshallsAlgorithm",
       "liveUrl": "https://suhaan-bhandary.github.io/warshallsAlgorithm/",
 
-      "imageSrc": "/images/OtherProjects/WarshallAlgorithm.png",
-      "imageSrcWebP": "/images/OtherProjects/WarshallAlgorithm.webp",
+      "imageSrc": "/WarshallAlgorithm.png",
+      "imageSrcWebP": "/WarshallAlgorithm.webp",
       "imageInfo": "Warshall Algorithm"
     },
     {
@@ -68,8 +68,8 @@
       "codeUrl": "https://github.com/Suhaan-Bhandary/AdviceGenerator",
       "liveUrl": "https://suhaan-bhandary.github.io/AdviceGenerator",
 
-      "imageSrc": "/images/OtherProjects/adviceGenerator.png",
-      "imageSrcWebP": "/images/OtherProjects/adviceGenerator.webp",
+      "imageSrc": "/adviceGenerator.png",
+      "imageSrcWebP": "/adviceGenerator.webp",
       "imageInfo": "Advice Generator"
     },
     {
@@ -80,8 +80,8 @@
       "codeUrl": "https://github.com/Suhaan-Bhandary/QuineMcClusky",
       "liveUrl": null,
 
-      "imageSrc": "/images/OtherProjects/QuineMcCluskyMinimization.png",
-      "imageSrcWebP": "/images/OtherProjects/QuineMcCluskyMinimization.webp",
+      "imageSrc": "/QuineMcCluskyMinimization.png",
+      "imageSrcWebP": "/QuineMcCluskyMinimization.webp",
       "imageInfo": "Quine McClusky Minimization Technique"
     },
     {
@@ -92,8 +92,8 @@
       "codeUrl": "https://github.com/Suhaan-Bhandary/Demo-Portfolio",
       "liveUrl": "https://suhaanbhandary.github.io/fullPortfolio/",
 
-      "imageSrc": "/images/OtherProjects/DemoWebsite.png",
-      "imageSrcWebP": "/images/OtherProjects/DemoWebsite.webp",
+      "imageSrc": "/DemoWebsite.png",
+      "imageSrcWebP": "/DemoWebsite.webp",
       "imageInfo": "Demo Website"
     }
   ]

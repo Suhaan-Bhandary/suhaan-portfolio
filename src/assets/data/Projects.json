@@ -8,8 +8,8 @@
       "codeUrl": "https://github.com/Suhaan-Bhandary/GraphVisualizer",
       "liveUrl": null,
 
-      "imageSrc": "/images/MainProjects/AlgorithmVisualizer.png",
-      "imageSrcWebP": "/images/MainProjects/AlgorithmVisualizer.webp",
+      "imageSrc": "/AlgorithmVisualizer.png",
+      "imageSrcWebP": "/AlgorithmVisualizer.webp",
       "imageInfo": "Graph Visualizer"
     },
     {
@@ -20,8 +20,8 @@
       "codeUrl": "https://github.com/Suhaan-Bhandary/PBL-Website",
       "liveUrl": "https://suhaanchetanfenilpbl.pythonanywhere.com",
 
-      "imageSrc": "/images/MainProjects/LookUp.png",
-      "imageSrcWebP": "/images/MainProjects/LookUp.webp",
+      "imageSrc": "/LookUp.png",
+      "imageSrcWebP": "/LookUp.webp",
       "imageInfo": "LookUp"
     },
     {
@@ -32,8 +32,8 @@
       "codeUrl": null,
       "liveUrl": null,
 
-      "imageSrc": "/images/MainProjects/GameInUnity.png",
-      "imageSrcWebP": "/images/MainProjects/GameInUnity.webp",
+      "imageSrc": "/GameInUnity.png",
+      "imageSrcWebP": "/GameInUnity.webp",
       "imageInfo": "Unity Game"
     },
     {
@@ -44,8 +44,8 @@
       "codeUrl": "https://github.com/Suhaan-Bhandary/Sudoku-Game",
       "liveUrl": "https://suhaan-bhandary.github.io/Sudoku-Game/",
 
-      "imageSrc": "/images/MainProjects/SudokuGame.png",
-      "imageSrcWebP": "/images/MainProjects/SudokuGame.webp",
+      "imageSrc": "/SudokuGame.png",
+      "imageSrcWebP": "/SudokuGame.webp",
       "imageInfo": "Sudoku Game"
     },
     {
@@ -56,8 +56,8 @@
       "codeUrl": "https://github.com/Suhaan-Bhandary/TypingFightMultiplayer",
       "liveUrl": "hhttps://typing-fight.glitch.me",
 
-      "imageSrc": "/images/MainProjects/TypingMultiplayer.png",
-      "imageSrcWebP": "/images/MainProjects/TypingMultiplayer.webp",
+      "imageSrc": "/TypingMultiplayer.png",
+      "imageSrcWebP": "/TypingMultiplayer.webp",
       "imageInfo": "Typing Multiplayer"
     },
     {
@@ -68,8 +68,8 @@
       "codeUrl": null,
       "liveUrl": "http://suhaanbhandary.pythonanywhere.com",
 
-      "imageSrc": "/images/MainProjects/DjangoBlog.png",
-      "imageSrcWebP": "/images/MainProjects/DjangoBlog.webp",
+      "imageSrc": "/DjangoBlog.png",
+      "imageSrcWebP": "/DjangoBlog.webp",
       "imageInfo": "Django Blog"
     },
     {
@@ -80,8 +80,8 @@
       "codeUrl": "https://github.com/Suhaan-Bhandary/Maze-Generator-DFS",
       "liveUrl": "https://suhaan-bhandary.github.io/Maze-Generator-DFS",
 
-      "imageSrc": "/images/MainProjects/MazeGenerator.png",
-      "imageSrcWebP": "/images/MainProjects/MazeGenerator.webp",
+      "imageSrc": "/MazeGenerator.png",
+      "imageSrcWebP": "/MazeGenerator.webp",
       "imageInfo": "Maze Generator"
     }
   ]

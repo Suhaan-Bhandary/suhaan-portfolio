@@ -4,7 +4,11 @@ const Project = ({ project }) => {
   return (
     <div
       className={styles.Project}
-      style={{ backgroundImage: `url(${process.env.PUBLIC_URL + project.imageSrc})` }}
+      style={{
+        backgroundImage: `url(${require("../../../../assets/images/OtherProjects" +
+          project.imageSrcWebP)}), url(${require("../../../../assets/images/OtherProjects" +
+          project.imageSrcWebP)})`,
+      }}
     >
       <div className={styles.content}>
         <h2 className={styles.title}>{project.title}</h2>

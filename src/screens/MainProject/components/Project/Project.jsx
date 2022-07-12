@@ -9,11 +9,13 @@ const Project = ({ project }) => {
       <Atropos className={styles.imageContainer} shadowScale={0.8}>
         <picture>
           <source
-            srcSet={process.env.PUBLIC_URL + `${project.imageSrcWebP}`}
+            srcSet={require('../../../../assets/images/MainProjects' +
+              project.imageSrcWebP)}
             type="image/webp"
           />
           <img
-            src={process.env.PUBLIC_URL + `${project.imageSrc}`}
+            src={require('../../../../assets/images/MainProjects' +
+              project.imageSrc)}
             alt={project.imageInfo}
             data-atropos-offset="0"
           />
