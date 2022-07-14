@@ -1,8 +1,9 @@
 import styles from "./Home.module.css";
 import Avatar from "./components/Avatar/Avatar";
 
-import Resume from "../../assets/document/Resume.pdf";
 import { Link } from "react-scroll";
+import Resume from "../../assets/document/Resume.pdf";
+import Button from "../../components/Button/Button";
 
 const Home = () => {
   return (
@@ -16,24 +17,18 @@ const Home = () => {
         </h3>
 
         <div className={styles.btnContainer}>
-          <Link
-            to="Projects"
-            spy={true}
-            smooth={true}
-            duration={500}
-            offset={-80}
-            className={styles.btn}
-          >
-            Explore
-          </Link>
-          <a
-            href={Resume}
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.btn}
-          >
-            Resume
-          </a>
+          <Button isLink={true}>
+            <Link
+              to="Projects"
+              spy={true}
+              smooth={true}
+              duration={500}
+              offset={-80}
+            >
+              Explore
+            </Link>
+          </Button>
+          <Button link={Resume}>Resume</Button>
         </div>
       </div>
 

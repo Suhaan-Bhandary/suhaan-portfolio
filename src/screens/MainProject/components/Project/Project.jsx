@@ -1,7 +1,8 @@
-import Atropos from 'atropos/react';
-import 'atropos/css';
+import Atropos from "atropos/react";
+import "atropos/css";
 
-import styles from './Project.module.css';
+import styles from "./Project.module.css";
+import Button from "../../../../components/Button/Button";
 
 const Project = ({ project }) => {
   return (
@@ -9,12 +10,12 @@ const Project = ({ project }) => {
       <Atropos className={styles.imageContainer} shadowScale={0.8}>
         <picture>
           <source
-            srcSet={require('../../../../assets/images/MainProjects' +
+            srcSet={require("../../../../assets/images/MainProjects" +
               project.imageSrcWebP)}
             type="image/webp"
           />
           <img
-            src={require('../../../../assets/images/MainProjects' +
+            src={require("../../../../assets/images/MainProjects" +
               project.imageSrc)}
             alt={project.imageInfo}
             data-atropos-offset="0"
@@ -38,26 +39,8 @@ const Project = ({ project }) => {
           </ul>
 
           <div className={styles.btnContainer}>
-            {project.codeUrl && (
-              <a
-                href={project.codeUrl}
-                className={styles.btnCode}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Code
-              </a>
-            )}
-            {project.liveUrl && (
-              <a
-                href={project.liveUrl}
-                className={styles.btnLive}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Live
-              </a>
-            )}
+            {project.codeUrl && <Button link={project.codeUrl}>Code</Button>}
+            {project.liveUrl && <Button link={project.liveUrl}>Live</Button>}
           </div>
         </div>
       </div>

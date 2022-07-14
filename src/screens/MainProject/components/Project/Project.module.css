@@ -79,23 +79,6 @@
   gap: 1rem;
 }
 
-.btnContainer a {
-  font-size: 1rem;
-  font-weight: bold;
-
-  padding: 10px 20px;
-
-  text-decoration: none;
-
-  color: var(--btn-text-color);
-  border-radius: 5px;
-  background-color: var(--btn-bg-color);
-}
-
-.btnContainer a:hover {
-  opacity: 0.8;
-}
-
 @media (min-width: 60rem) {
   .Project {
     grid-template-rows: 1fr;

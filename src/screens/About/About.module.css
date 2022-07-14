@@ -35,29 +35,10 @@ section.About > h1::before {
 
 .content .email > a {
   font-weight: 500;
+  padding: 0.2rem;
 
   opacity: 0.8;
   color: var(--bg-light);
-}
-
-.btn {
-  font-weight: 600;
-
-  display: inline-block;
-
-  margin-top: 1rem;
-  padding: 0.5rem 1rem;
-
-  text-decoration: none;
-
-  color: var(--btn-text-color);
-  border-radius: 5px;
-  background-color: var(--btn-bg-color);
-}
-
-.btn:hover,
-.btn:focus {
-  opacity: 0.8;
 }
 
 @media (min-width: 30rem) {

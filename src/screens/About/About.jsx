@@ -2,6 +2,7 @@ import { UseActiveOnScroll } from "../../hooks/useActiveOnScroll";
 import styles from "./About.module.css";
 
 import Resume from "../../assets/document/Resume.pdf";
+import Button from "../../components/Button/Button";
 
 const About = () => {
   const { observerRef: sectionRef, isVisible } = UseActiveOnScroll(0.3);
@@ -29,19 +30,12 @@ const About = () => {
           One Problem Daily.
         </p>
         <p className={styles.email}>
-          Let's Start a Conversation:{" "}
+          Let's Start a Conversation:
           <a href="mailto:suhaanbhandary1@gmail.com?subject=Hi!">
             suhaanbhandary1@gmail.com
           </a>
         </p>
-        <a
-          href={Resume}
-          target="_blank"
-          rel="noopener noreferrer"
-          className={styles.btn}
-        >
-          Resume
-        </a>
+        <Button link={Resume}>Resume</Button>
       </div>
     </section>
   );

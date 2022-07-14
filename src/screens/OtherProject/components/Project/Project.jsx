@@ -1,4 +1,5 @@
 import styles from "./Project.module.css";
+import Button from "../../../../components/Button/Button";
 
 const Project = ({ project }) => {
   return (
@@ -14,26 +15,8 @@ const Project = ({ project }) => {
         <h2 className={styles.title}>{project.title}</h2>
         <p>{project.description}</p>
         <div className={styles.btnContainer}>
-          {project.codeUrl && (
-            <a
-              href={project.codeUrl}
-              className={styles.btnCode}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Code
-            </a>
-          )}
-          {project.liveUrl && (
-            <a
-              href={project.liveUrl}
-              className={styles.btnLive}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Live
-            </a>
-          )}
+          {project.codeUrl && <Button link={project.codeUrl}>Code</Button>}
+          {project.liveUrl && <Button link={project.liveUrl}>Live</Button>}
         </div>
       </div>
     </div>
