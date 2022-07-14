@@ -36,7 +36,7 @@
   font-size: 1rem;
 }
 
-.subTitle > span {
+.subTitle  span {
   color: var(--home-title-color);
 }
 
@@ -48,6 +48,10 @@
   display: flex;
   gap: 1rem;
   align-items: center;
+}
+
+.btnContainer a{
+  margin-top: 0;
 }
 
 @media (min-width: 30rem) {

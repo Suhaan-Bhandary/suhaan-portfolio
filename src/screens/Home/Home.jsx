@@ -5,6 +5,9 @@ import { Link } from "react-scroll";
 import Resume from "../../assets/document/Resume.pdf";
 import Button from "../../components/Button/Button";
 
+import Typed from "react-typed";
+import 'react-typed/dist/animatedCursor.css';
+
 const Home = () => {
   return (
     <section className={styles.Home} name="Home">
@@ -13,7 +16,13 @@ const Home = () => {
           Hi! I Am <span>Suhaan Bhandary</span>
         </h1>
         <h3 className={styles.subTitle}>
-          I Am Into <span>Web Development</span>{" "}
+          I am into{" "}
+          <Typed
+            strings={["Web Development", "Problem Solving", "Engineering"]}
+            typeSpeed={250}
+            backSpeed={250}
+            loop
+          />
         </h3>
 
         <div className={styles.btnContainer}>
