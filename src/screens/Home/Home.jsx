@@ -20,7 +20,7 @@ const Home = () => {
           <Typed
             strings={["Web Development", "Problem Solving", "Engineering"]}
             typeSpeed={250}
-            backSpeed={250}
+            backSpeed={50}
             loop
           />
         </h3>
