@@ -54,11 +54,11 @@
   margin-top: 0;
 }
 
-@media (min-width: 30rem) {
+@media (min-width: 40rem) {
   .Home {
     display: grid;
-    grid-template-rows: 1fr 1fr;
-    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
   }
 
   .title {
@@ -73,7 +73,7 @@
   }
 }
 
-@media (min-width: 65rem) {
+@media (min-width: 60rem) {
   .Home {
     display: grid;
     grid-template-rows: 1fr;
