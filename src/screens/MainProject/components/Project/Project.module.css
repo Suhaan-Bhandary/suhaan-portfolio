@@ -43,6 +43,7 @@
 .container {
   overflow: auto;
   max-height: 85%;
+  padding-bottom: 2rem;
 }
 
 .container > * + * {
@@ -133,6 +134,6 @@
   }
 
   .btnContainer a {
-    padding: 10px 30px;
+    padding: 0.3rem 1.3rem;
   }
 }

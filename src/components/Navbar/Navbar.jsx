@@ -11,7 +11,7 @@ const sectionNames = [
   { name: "Home", offset: -100 },
   { name: "About", offset: -80 },
   { name: "Skills", offset: -250 },
-  { name: "Projects", offset: -80 },
+  { name: "Projects", offset: 0 },
   { name: "Education", offset: -80 },
 ];
 
@@ -21,7 +21,7 @@ const Navbar = () => {
   const setDocumentTitle = useDocumentTitle("Suhaan's Portfolio");
 
   return (
-    <nav className={`${styles.Navbar} ${scroll ? styles.sticky : ""}`}>
+    <nav className={`main-nav ${styles.Navbar} ${scroll ? styles.sticky : ""}`}>
       <div className={styles.headerContainer}>
         <p className={styles.logo}>Suhaan</p>
         <div
@@ -29,7 +29,7 @@ const Navbar = () => {
           onClick={() => setShowMenu(() => !showMenu)}
         >
           <BiMenu className={`${styles.icon} ${styles.menuIcon}`} />
-          <BiX className={`${styles.icon} ${styles.closeIcon}`}  />
+          <BiX className={`${styles.icon} ${styles.closeIcon}`} />
         </div>
       </div>
 

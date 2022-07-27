@@ -1,3 +1,5 @@
+import { useEffect } from "react";
+
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Autoplay, Keyboard } from "swiper";
@@ -13,12 +15,17 @@ import projectData from "../../assets/data/Projects.json";
 import { UseActiveOnScroll } from "../../hooks/useActiveOnScroll";
 
 const MainProject = () => {
-  const { observerRef: sectionRef, isVisible } = UseActiveOnScroll(0.3);
+  const { observerRef: sectionRef, isVisible } = UseActiveOnScroll(0.8);
+
+  useEffect(() => {
+    document.body.classList.toggle("on-project", isVisible);
+  }, [isVisible]);
 
   return (
     <section
       className={`MainProject ${isVisible ? "active" : ""}`}
       name="Projects"
+      id="MainProject"
       ref={sectionRef}
     >
       <h1 className="section-header" style={{ "--x": "5%", "--y": "1rem" }}>

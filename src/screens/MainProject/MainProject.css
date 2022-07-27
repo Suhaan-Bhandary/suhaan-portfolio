@@ -29,3 +29,9 @@
     height: 120vh;
   }
 }
+
+@media (min-width: 60rem) {
+  .main-project-swiper {
+    height: 85vh;
+  }
+}
