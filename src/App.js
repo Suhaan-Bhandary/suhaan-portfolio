@@ -1,3 +1,6 @@
+import { useEffect } from "react";
+import LinksSlider from "./components/LinksSlider/LinksSlider";
+import Navbar from "./components/Navbar/Navbar";
 import {
   About,
   Education,
@@ -5,12 +8,12 @@ import {
   Home,
   MainProject,
   OtherProject,
-  Skills,
+  Skills
 } from "./screens";
-import Navbar from "./components/Navbar/Navbar";
-import LinksSlider from "./components/LinksSlider/LinksSlider";
 
 function App() {
+  useEffect(() => document.querySelector(".loader").classList.add("deactivate"), []);
+
   return (
     <div className="App">
       <Navbar />
