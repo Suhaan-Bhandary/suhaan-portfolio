@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useScrollHandler } from "./hooks/useScrollHandler";
 import { useDocumentTitle } from "./hooks/useDocumentTitle";
 
@@ -20,6 +20,10 @@ const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
   const setDocumentTitle = useDocumentTitle("Suhaan's Portfolio");
 
+  useEffect(() => {
+    document.body.classList.toggle("hidden", showMenu);
+  }, [showMenu]);
+
   return (
     <nav className={`main-nav ${styles.Navbar} ${scroll ? styles.sticky : ""}`}>
       <div className={styles.headerContainer}>
@@ -33,6 +37,9 @@ const Navbar = () => {
         </div>
       </div>
 
+      <div
+        className={`${styles.menuBackdrop} ${showMenu ? styles.active : ""}`}
+      ></div>
       <ul className={`${styles.menu} ${showMenu ? styles.active : ""}`}>
         {sectionNames.map(({ name, offset }) => {
           return (

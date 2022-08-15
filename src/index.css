@@ -121,3 +121,9 @@ section.active .section-header::before {
     transition-delay: 0.01s !important;
   }
 }
+
+@media only screen and (max-width: 60rem) {
+  body.hidden{
+    overflow: hidden;
+  }
+}

@@ -27,7 +27,7 @@
 }
 
 .logo {
-  font-family: 'Lobster', cursive;
+  font-family: "Lobster", cursive;
   font-size: 40px;
   font-style: normal;
   line-height: 0.3;
@@ -58,7 +58,7 @@
   list-style: none;
 }
 
-.menu li a{
+.menu li a {
   font-size: 1.2rem;
 
   cursor: pointer;
@@ -83,7 +83,6 @@
 .menu li a.active::after {
   width: 100%;
 }
-
 
 @media only screen and (max-width: 60rem) {
   .Navbar {
@@ -142,30 +141,47 @@
 
   .menu {
     position: absolute;
-    right: -100%;
+    left: -100%;
 
     display: block;
     display: flex;
     flex-direction: column;
     overflow: hidden;
 
-
-    width: 100%;
+    width: min(65%, 400px);
     height: 100vh;
-    padding: 15px 10px;
+    padding: 4rem 2rem;
 
     opacity: 1;
-    background: var(--bg-light);
+    background: var(--bg-white);
 
-    transition: 0.5s;
+    transition: all 0.3s ease-in-out;
 
-    justify-content: center;
-    align-items: center;
+    justify-content: start;
+    align-items: flex-start;
     gap: 10px;
+    z-index: 2000;
   }
 
   .menu.active {
-    right: 0;
+    left: 0;
+  }
+
+  .menuBackdrop {
+    transition: all 0.3s ease-in-out;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100vh;
+    pointer-events: none;
+    z-index: 2000;
+  }
+
+  .menuBackdrop.active {
+    background-color: rgb(0, 0, 0, 0.15);
   }
 
   .menu li a {
