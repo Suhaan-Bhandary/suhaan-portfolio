@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/suhaan-portfolio/static/css/main.fd110c7f.css",
-    "main.js": "/suhaan-portfolio/static/js/main.fb8db96c.js",
+    "main.js": "/suhaan-portfolio/static/js/main.b248ce45.js",
     "static/js/787.d4e7544c.chunk.js": "/suhaan-portfolio/static/js/787.d4e7544c.chunk.js",
     "static/media/DemoWebsite.png": "/suhaan-portfolio/static/media/DemoWebsite.d46b54beb8ff87e0e663.png",
     "static/media/TypingMultiplayer.png": "/suhaan-portfolio/static/media/TypingMultiplayer.c387dd1eb0b88bed43fe.png",
     "static/media/DjangoBlog.png": "/suhaan-portfolio/static/media/DjangoBlog.8b6d7ccca6f07411add4.png",
-    "static/media/Resume.pdf": "/suhaan-portfolio/static/media/Resume.c823950da6da82e5f5ec.pdf",
+    "static/media/Resume.pdf": "/suhaan-portfolio/static/media/Resume.b9ca79277c13a6d83baa.pdf",
     "static/media/DemoWebsite.webp": "/suhaan-portfolio/static/media/DemoWebsite.33dc492e8780864799a9.webp",
     "static/media/GameInUnity.png": "/suhaan-portfolio/static/media/GameInUnity.ca959b9d0ca171108f6a.png",
     "static/media/DjangoBlog.webp": "/suhaan-portfolio/static/media/DjangoBlog.489ba343252b99567fc1.webp",
@@ -32,11 +32,11 @@
     "static/media/3dBox.webp": "/suhaan-portfolio/static/media/3dBox.9e46096ae9a55ef09356.webp",
     "index.html": "/suhaan-portfolio/index.html",
     "main.fd110c7f.css.map": "/suhaan-portfolio/static/css/main.fd110c7f.css.map",
-    "main.fb8db96c.js.map": "/suhaan-portfolio/static/js/main.fb8db96c.js.map",
+    "main.b248ce45.js.map": "/suhaan-portfolio/static/js/main.b248ce45.js.map",
     "787.d4e7544c.chunk.js.map": "/suhaan-portfolio/static/js/787.d4e7544c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fd110c7f.css",
-    "static/js/main.fb8db96c.js"
+    "static/js/main.b248ce45.js"
   ]
 }
