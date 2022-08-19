@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/suhaan-portfolio/static/css/main.fd110c7f.css",
-    "main.js": "/suhaan-portfolio/static/js/main.b248ce45.js",
+    "main.css": "/suhaan-portfolio/static/css/main.0f4dc154.css",
+    "main.js": "/suhaan-portfolio/static/js/main.992f6c56.js",
     "static/js/787.d4e7544c.chunk.js": "/suhaan-portfolio/static/js/787.d4e7544c.chunk.js",
     "static/media/DemoWebsite.png": "/suhaan-portfolio/static/media/DemoWebsite.d46b54beb8ff87e0e663.png",
     "static/media/TypingMultiplayer.png": "/suhaan-portfolio/static/media/TypingMultiplayer.c387dd1eb0b88bed43fe.png",
@@ -24,19 +24,21 @@
     "static/media/SudokuGame.webp": "/suhaan-portfolio/static/media/SudokuGame.4a883034aa7cdd9e1bb0.webp",
     "static/media/HuffmanCoding.png": "/suhaan-portfolio/static/media/HuffmanCoding.5eea11b198e6abf0b709.png",
     "static/media/StopWatch.png": "/suhaan-portfolio/static/media/StopWatch.38d9e7bfe4eb050c8adc.png",
+    "static/media/KMeanClusturing.png": "/suhaan-portfolio/static/media/KMeanClusturing.0aa9a33c38f2d4de0f2e.png",
     "static/media/GameInUnity.webp": "/suhaan-portfolio/static/media/GameInUnity.4917c04da94724d8762e.webp",
     "static/media/StopWatch.webp": "/suhaan-portfolio/static/media/StopWatch.77be4a1bbf8e1db909a4.webp",
     "static/media/adviceGenerator.webp": "/suhaan-portfolio/static/media/adviceGenerator.a7e56b91cd023992b9f4.webp",
     "static/media/WarshallAlgorithm.webp": "/suhaan-portfolio/static/media/WarshallAlgorithm.3a61812b6110a7664c4c.webp",
     "static/media/Wordle.webp": "/suhaan-portfolio/static/media/Wordle.212265358c62c3fad9cf.webp",
     "static/media/3dBox.webp": "/suhaan-portfolio/static/media/3dBox.9e46096ae9a55ef09356.webp",
+    "static/media/KMeanClusturing.webp": "/suhaan-portfolio/static/media/KMeanClusturing.df1fe170dc4078b2da0c.webp",
     "index.html": "/suhaan-portfolio/index.html",
-    "main.fd110c7f.css.map": "/suhaan-portfolio/static/css/main.fd110c7f.css.map",
-    "main.b248ce45.js.map": "/suhaan-portfolio/static/js/main.b248ce45.js.map",
+    "main.0f4dc154.css.map": "/suhaan-portfolio/static/css/main.0f4dc154.css.map",
+    "main.992f6c56.js.map": "/suhaan-portfolio/static/js/main.992f6c56.js.map",
     "787.d4e7544c.chunk.js.map": "/suhaan-portfolio/static/js/787.d4e7544c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fd110c7f.css",
-    "static/js/main.b248ce45.js"
+    "static/css/main.0f4dc154.css",
+    "static/js/main.992f6c56.js"
   ]
 }
