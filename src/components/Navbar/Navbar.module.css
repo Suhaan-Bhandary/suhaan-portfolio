@@ -157,7 +157,7 @@
 
     transition: all 0.3s ease-in-out;
 
-    justify-content: start;
+    justify-content: flex-start;
     align-items: flex-start;
     gap: 10px;
     z-index: 2000;
