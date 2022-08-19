@@ -1,6 +1,18 @@
 {
   "projects": [
     {
+      "title": "KMean on IPL Data",
+      "description": "A Mini Project using KMean Clusturing Algorithm Implementation to Analyze and Create group based on IPL Data",
+      "date": "Aug 2022",
+      "techStack": ["Python", "JupyterNotebook", "Pandas", "Matplotlib"],
+      "codeUrl": "https://github.com/Suhaan-Bhandary/KMean-Clusturing-Algorithm",
+      "liveUrl": "https://suhaan-bhandary.github.io/KMean-Clusturing-Algorithm",
+
+      "imageSrc": "/KMeanClusturing.png",
+      "imageSrcWebP": "/KMeanClusturing.webp",
+      "imageInfo": "KMean Clusturing Algorithm"
+    },
+    {
       "title": "StopWatch",
       "description": "It's a simple Stop-Watch created using HTML, CSS, and JS. It can be used as a stopwatch with custom sound for ring",
       "date": "June 2022",
