@@ -20,6 +20,13 @@
   margin-block: auto;
 }
 
+.imageLink {
+  display: block;
+  margin: auto;
+  cursor: pointer;
+  text-decoration: none;
+}
+
 .imageContainer img {
   width: 80%;
   border-radius: var(--box-border-radius);

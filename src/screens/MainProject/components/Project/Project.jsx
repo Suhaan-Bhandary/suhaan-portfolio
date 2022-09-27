@@ -5,26 +5,44 @@ import styles from "./Project.module.css";
 import Button from "../../../../components/Button/Button";
 
 const Project = ({ project }) => {
+  // The imageWithEffect is conditionally to the anchor tag if a link exits
+  const imageWithEffect = (
+    <Atropos className={styles.imageContainer} shadowScale={0.8}>
+      <picture>
+        <source
+          srcSet={require("../../../../assets/images/MainProjects" +
+            project.imageSrcWebP)}
+          type="image/webp"
+        />
+        <img
+          src={require("../../../../assets/images/MainProjects" +
+            project.imageSrc)}
+          alt={project.imageInfo}
+          data-atropos-offset="0"
+        />
+      </picture>
+      <p className={styles.date}>
+        Create On: <span>{project.date}</span>
+      </p>
+    </Atropos>
+  );
+
   return (
     <div className={styles.Project}>
-      <Atropos className={styles.imageContainer} shadowScale={0.8}>
-        <picture>
-          <source
-            srcSet={require("../../../../assets/images/MainProjects" +
-              project.imageSrcWebP)}
-            type="image/webp"
-          />
-          <img
-            src={require("../../../../assets/images/MainProjects" +
-              project.imageSrc)}
-            alt={project.imageInfo}
-            data-atropos-offset="0"
-          />
-        </picture>
-        <p className={styles.date}>
-          Create On: <span>{project.date}</span>
-        </p>
-      </Atropos>
+      {/* Adding anchor tag if link is present */}
+      {project.liveUrl || project.codeUrl ? (
+        <a
+          href={project.liveUrl || project.codeUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          className={`${styles.imageLink}`}
+        >
+          {imageWithEffect}
+        </a>
+      ) : (
+        imageWithEffect
+      )}
+
       <div className={styles.projectInfo}>
         <h2>{project.title}</h2>
 
