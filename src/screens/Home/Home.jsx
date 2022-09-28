@@ -32,7 +32,7 @@ const Home = () => {
               spy={true}
               smooth={true}
               duration={500}
-              offset={-80}
+              offset={0}
             >
               Explore
             </Link>
