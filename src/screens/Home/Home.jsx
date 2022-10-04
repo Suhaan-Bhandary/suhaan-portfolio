@@ -10,7 +10,7 @@ import 'react-typed/dist/animatedCursor.css';
 
 const Home = () => {
   return (
-    <section className={styles.Home} name="Home">
+    <section className={styles.Home} name="Home" id="main-content">
       <div className={styles.content}>
         <h1 className={styles.title}>
           Hi! I Am <span>Suhaan Bhandary</span>
