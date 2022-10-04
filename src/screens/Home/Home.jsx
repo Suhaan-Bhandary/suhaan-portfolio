@@ -28,6 +28,7 @@ const Home = () => {
         <div className={styles.btnContainer}>
           <Button isLink={true}>
             <Link
+              href="#Projects"
               to="Projects"
               spy={true}
               smooth={true}

@@ -46,6 +46,7 @@ const Navbar = () => {
             <li key={name}>
               <Link
                 activeClass={styles.active}
+                href={`#${name}`} // Adding this so that tab button works on navbar
                 to={name}
                 spy={true}
                 smooth={true}
@@ -57,7 +58,7 @@ const Navbar = () => {
                 }
                 className={name === "Projects" ? styles.projectLink : ""}
               >
-                {name}
+                <span>{name}</span>
               </Link>
             </li>
           );

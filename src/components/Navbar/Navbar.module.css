@@ -46,7 +46,7 @@
   align-items: center;
 }
 
-.menu .projectLink {
+.menu .projectLink span {
   font-weight: 500;
 
   color: var(--accent-color);
@@ -60,10 +60,21 @@
 
 .menu li a {
   font-size: 1.2rem;
+  text-decoration: none;
 
   cursor: pointer;
-
+  
   color: var(--text-dark);
+}
+
+/* To Avoid unnecessary outline over the pseudo element, when focused using tab */
+.menu li a:focus {
+  outline: none;
+}
+
+.menu li a:focus span {
+  outline: 2px solid blue;
+  outline-offset: 5px;
 }
 
 .menu li a::after {
