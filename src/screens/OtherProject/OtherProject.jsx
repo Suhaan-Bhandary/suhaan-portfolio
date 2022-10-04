@@ -28,7 +28,11 @@ const OtherProject = () => {
       <Swiper
         className="other-project-swiper"
         loop={false}
-        autoplay={{ delay: 2000 }}
+        autoplay={{
+          delay: 2000,
+          disableOnInteraction: false,
+          pauseOnMouseEnter: true,
+        }}
         pagination={{ clickable: true }}
         keyboard={{ enabled: true }}
         modules={[Keyboard, Autoplay, Pagination]}
