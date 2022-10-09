@@ -11,8 +11,16 @@ import personalUrls from "../../assets/data/PersonalUrls.json";
 const LinksSlider = () => {
   const [isNavOpen, setIsNavOpen] = useLocalStorage("navbar-open-status", true);
 
+  // Function to open nav when it is in focus
+  const handleOnFocus = () => {
+    setIsNavOpen(true);
+  };
+
   return (
-    <nav className={`${styles.LinksSlider} ${isNavOpen ? styles.open : ""}`}>
+    <nav
+      className={`${styles.LinksSlider} ${isNavOpen ? styles.open : ""}`}
+      onFocus={handleOnFocus}
+    >
       <div className={styles.navContent}>
         <div
           className={styles.toggleBtn}
