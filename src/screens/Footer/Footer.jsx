@@ -8,7 +8,7 @@ const Footer = () => {
         <h3>Suhaan's Portfolio</h3>
         <p>Thank you for visiting my personal portfolio website.</p>
         <p>
-          Connect with meover <a href={personalUrls.linkedIn}>LinkedIn</a>.
+          Connect with me over <a href={personalUrls.linkedIn}>LinkedIn</a>.
         </p>
         <p>Keep Exploring, Keep Coding!</p>
       </div>
