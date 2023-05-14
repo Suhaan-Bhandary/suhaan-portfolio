@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/suhaan-portfolio/static/css/main.65d009a6.css",
-    "main.js": "/suhaan-portfolio/static/js/main.65e16db0.js",
+    "main.js": "/suhaan-portfolio/static/js/main.03f2b879.js",
     "static/js/787.d4e7544c.chunk.js": "/suhaan-portfolio/static/js/787.d4e7544c.chunk.js",
     "static/media/DemoWebsite.png": "/suhaan-portfolio/static/media/DemoWebsite.d46b54beb8ff87e0e663.png",
     "static/media/TypingMultiplayer.png": "/suhaan-portfolio/static/media/TypingMultiplayer.c387dd1eb0b88bed43fe.png",
     "static/media/DjangoBlog.png": "/suhaan-portfolio/static/media/DjangoBlog.8b6d7ccca6f07411add4.png",
     "static/media/DemoWebsite.webp": "/suhaan-portfolio/static/media/DemoWebsite.33dc492e8780864799a9.webp",
     "static/media/GameInUnity.png": "/suhaan-portfolio/static/media/GameInUnity.ca959b9d0ca171108f6a.png",
-    "static/media/Resume.pdf": "/suhaan-portfolio/static/media/Resume.ea468a6d84af8a04401d.pdf",
+    "static/media/Resume.pdf": "/suhaan-portfolio/static/media/Resume.2f5436b8f86651aa1338.pdf",
     "static/media/DjangoBlog.webp": "/suhaan-portfolio/static/media/DjangoBlog.489ba343252b99567fc1.webp",
     "static/media/QuineMcCluskyMinimization.webp": "/suhaan-portfolio/static/media/QuineMcCluskyMinimization.4f8e23cf35e40cfd01e6.webp",
     "static/media/QuineMcCluskyMinimization.png": "/suhaan-portfolio/static/media/QuineMcCluskyMinimization.dc8d3a7f769bbb8890b9.png",
@@ -34,11 +34,11 @@
     "static/media/KMeanClusturing.webp": "/suhaan-portfolio/static/media/KMeanClusturing.df1fe170dc4078b2da0c.webp",
     "index.html": "/suhaan-portfolio/index.html",
     "main.65d009a6.css.map": "/suhaan-portfolio/static/css/main.65d009a6.css.map",
-    "main.65e16db0.js.map": "/suhaan-portfolio/static/js/main.65e16db0.js.map",
+    "main.03f2b879.js.map": "/suhaan-portfolio/static/js/main.03f2b879.js.map",
     "787.d4e7544c.chunk.js.map": "/suhaan-portfolio/static/js/787.d4e7544c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.65d009a6.css",
-    "static/js/main.65e16db0.js"
+    "static/js/main.03f2b879.js"
   ]
 }
