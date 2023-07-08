@@ -1,6 +1,39 @@
 {
   "projects": [
     {
+      "title": "Interview Experience",
+      "description": "An Interview Experience Sharing Portal for KKWIEER Students. Senior Students can share their experience and students can view and share them easily.",
+      "date": "Jan 2023",
+      "techStack": [
+        "NodeJs",
+        "Express",
+        "ReactJs",
+        "Redux",
+        "TypeScript",
+        "MongoDB[Mongoose]",
+        "Eslint[AirBnb]",
+        "QuillEditor"
+      ],
+      "codeUrl": "https://github.com/Kkwagh-Coders/interview-experience-client",
+      "liveUrl": "https://official-interview-experience.netlify.app",
+
+      "imageSrc": "/interview_experience.png",
+      "imageSrcWebP": "/interview_experience.webp",
+      "imageInfo": "Interview Experience"
+    },
+    {
+      "title": "Web Framework in C++",
+      "description": "A Web Application Framework in C++ from Scratch. This project helped me to gain deep understanding about Servers and also apply my API Knowledge.",
+      "date": "Present",
+      "techStack": ["C++", "DSA", "HTTP", "CNS"],
+      "codeUrl": "https://github.com/Suhaan-Bhandary/HTTP-Server-CPP",
+      "liveUrl": null,
+
+      "imageSrc": "/cpp_server.png",
+      "imageSrcWebP": "/cpp_server.webp",
+      "imageInfo": "Web Framework in C++"
+    },
+    {
       "title": "Graph Visualizer",
       "description": "It is a Graph Visualizer created in Java in which one can create custom graphs and visualize BFS, DFS, Dijkstra, Components, Spanning Tree, Bridges, and Articulation point.\nWe won First Prize in DSA Mini Project in Second Year with this Project.",
       "date": "May 2022",
@@ -14,7 +47,7 @@
     },
     {
       "title": "LookUp",
-      "description": "It was a PBL project in the First Year, This project was a custom notification app where teachers can post assignments, news, and instructions, and students were notified using Gmail. It had active 100 users when Online Classes were going.",
+      "description": "A Bridge Between Teachers and Students, This project was a custom notification app where teachers can post assignments, news, and instructions, and students were notified using Gmail. It had an user base of 200 when Online Classes were going.",
       "date": "June 2021",
       "techStack": ["Django", "Django RestApi", "React", "Sqlite"],
       "codeUrl": "https://github.com/Suhaan-Bhandary/PBL-Website",

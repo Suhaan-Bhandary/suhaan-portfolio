@@ -22,7 +22,7 @@ const Project = ({ project }) => {
         />
       </picture>
       <p className={styles.date}>
-        Create On: <span>{project.date}</span>
+        Date: <span>{project.date}</span>
       </p>
     </Atropos>
   );
