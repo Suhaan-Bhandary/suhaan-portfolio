@@ -1,6 +1,18 @@
 {
   "projects": [
     {
+      "title": "Sobel Filter",
+      "description": "Image Processing Project in C++. Implemented the Sobel Filter for Edge Detection.",
+      "date": "Apr 2023",
+      "techStack": ["C++", "Sobel Algorithm", "PPM P3"],
+      "codeUrl": "https://github.com/Suhaan-Bhandary/Image-Processing-And-Sobel-CPP",
+      "liveUrl": null,
+
+      "imageSrc": "/sobel_filter.png",
+      "imageSrcWebP": "/sobel_filter.webp",
+      "imageInfo": "Sobel Filter"
+    },
+    {
       "title": "KMean on IPL Data",
       "description": "A Mini Project using KMean Clusturing Algorithm Implementation to Analyze and Create group based on IPL Data",
       "date": "Aug 2022",
