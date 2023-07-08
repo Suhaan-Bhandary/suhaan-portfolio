@@ -1,24 +1,30 @@
 {
   "files": {
     "main.css": "/suhaan-portfolio/static/css/main.65d009a6.css",
-    "main.js": "/suhaan-portfolio/static/js/main.03f2b879.js",
+    "main.js": "/suhaan-portfolio/static/js/main.65cef4a5.js",
     "static/js/787.d4e7544c.chunk.js": "/suhaan-portfolio/static/js/787.d4e7544c.chunk.js",
     "static/media/DemoWebsite.png": "/suhaan-portfolio/static/media/DemoWebsite.d46b54beb8ff87e0e663.png",
+    "static/media/sobel_filter.png": "/suhaan-portfolio/static/media/sobel_filter.bfa56d8dbf8bd69ac07b.png",
     "static/media/TypingMultiplayer.png": "/suhaan-portfolio/static/media/TypingMultiplayer.c387dd1eb0b88bed43fe.png",
     "static/media/DjangoBlog.png": "/suhaan-portfolio/static/media/DjangoBlog.8b6d7ccca6f07411add4.png",
     "static/media/DemoWebsite.webp": "/suhaan-portfolio/static/media/DemoWebsite.33dc492e8780864799a9.webp",
+    "static/media/sobel_filter.webp": "/suhaan-portfolio/static/media/sobel_filter.4524d8e0ca1c84fb8813.webp",
     "static/media/GameInUnity.png": "/suhaan-portfolio/static/media/GameInUnity.ca959b9d0ca171108f6a.png",
     "static/media/Resume.pdf": "/suhaan-portfolio/static/media/Resume.2f5436b8f86651aa1338.pdf",
     "static/media/DjangoBlog.webp": "/suhaan-portfolio/static/media/DjangoBlog.489ba343252b99567fc1.webp",
     "static/media/QuineMcCluskyMinimization.webp": "/suhaan-portfolio/static/media/QuineMcCluskyMinimization.4f8e23cf35e40cfd01e6.webp",
+    "static/media/interview_experience.webp": "/suhaan-portfolio/static/media/interview_experience.d5b96c0730fb752fe41c.webp",
     "static/media/QuineMcCluskyMinimization.png": "/suhaan-portfolio/static/media/QuineMcCluskyMinimization.dc8d3a7f769bbb8890b9.png",
+    "static/media/interview_experience.png": "/suhaan-portfolio/static/media/interview_experience.abce4d4032206f644ff3.png",
     "static/media/LookUp.webp": "/suhaan-portfolio/static/media/LookUp.e7e7437c0f5a8ce02cf2.webp",
     "static/media/TypingMultiplayer.webp": "/suhaan-portfolio/static/media/TypingMultiplayer.788b649869aaf358addf.webp",
     "static/media/CoronaTracker.webp": "/suhaan-portfolio/static/media/CoronaTracker.bedccaca33a9462d04a0.webp",
     "static/media/LookUp.png": "/suhaan-portfolio/static/media/LookUp.0b1d67a442250a04fd50.png",
     "static/media/AlgorithmVisualizer.webp": "/suhaan-portfolio/static/media/AlgorithmVisualizer.123d7fb86c1f85aea960.webp",
+    "static/media/cpp_server.webp": "/suhaan-portfolio/static/media/cpp_server.56d1f206a97b5cd7b030.webp",
     "static/media/HuffmanCoding.webp": "/suhaan-portfolio/static/media/HuffmanCoding.984bcbc517ae1853087a.webp",
     "static/media/CoronaTracker.png": "/suhaan-portfolio/static/media/CoronaTracker.d9f83fe9638791fb1249.png",
+    "static/media/cpp_server.png": "/suhaan-portfolio/static/media/cpp_server.af6f5809fa1ed0c50a06.png",
     "static/media/AlgorithmVisualizer.png": "/suhaan-portfolio/static/media/AlgorithmVisualizer.5da3f8aa48eaad18e52d.png",
     "static/media/MazeGenerator.webp": "/suhaan-portfolio/static/media/MazeGenerator.54a3581b35c77c63b04d.webp",
     "static/media/SudokuGame.webp": "/suhaan-portfolio/static/media/SudokuGame.4a883034aa7cdd9e1bb0.webp",
@@ -34,11 +40,11 @@
     "static/media/KMeanClusturing.webp": "/suhaan-portfolio/static/media/KMeanClusturing.df1fe170dc4078b2da0c.webp",
     "index.html": "/suhaan-portfolio/index.html",
     "main.65d009a6.css.map": "/suhaan-portfolio/static/css/main.65d009a6.css.map",
-    "main.03f2b879.js.map": "/suhaan-portfolio/static/js/main.03f2b879.js.map",
+    "main.65cef4a5.js.map": "/suhaan-portfolio/static/js/main.65cef4a5.js.map",
     "787.d4e7544c.chunk.js.map": "/suhaan-portfolio/static/js/787.d4e7544c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.65d009a6.css",
-    "static/js/main.03f2b879.js"
+    "static/js/main.65cef4a5.js"
   ]
 }
