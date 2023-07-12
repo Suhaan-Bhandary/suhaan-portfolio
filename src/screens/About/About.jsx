@@ -22,17 +22,29 @@ const About = () => {
           Hi!, I am Suhaan Bhandary, and currently studying Computer Engineering
           at KKWIEER.
         </p>
-        <p>I am Core Commitee Member at MIBCS Club.</p>
-        <p>I enjoy building websites and exploring new technologies.</p>
-
         <p>
-          In my Second Year of College I picked up a habit of solving atleast
-          One Problem Daily.
+          My area of interest is in Software Deployment focused on building and
+          solving problems. Up-to-date with leading-edge technologies, efficient
+          and diligent in problem solving. Adaptive to new work environments and
+          changes to current projects.
+        </p>
+        <p>
+          I enjoy solving problem and also creating automation scripts using
+          python.
+        </p>
+        <p>
+          In my Second Year of College I started a habit of solving minimum One
+          Problem Daily which helped me to improve my problem solving and
+          development skill.
+        </p>
+        <p>
+          Leetcode:{" "}
+          <a href="https://leetcode.com/suhaanbhandary1/">suhaanbhandary1</a>
         </p>
         <p className={styles.email}>
           Let's Start a Conversation:
-          <a href="mailto:suhaanbhandary1@gmail.com?subject=Hi!">
-            suhaanbhandary1@gmail.com
+          <a href="https://www.linkedin.com/in/suhaan-bhandary">
+            Suhaan Bhandary
           </a>
         </p>
         <Button link={Resume}>Resume</Button>
